@@ -13,7 +13,11 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
+<<<<<<< HEAD
         <box size="0.25 0.18 0.4" />
+=======
+                <box size="0.25 0.18 0.45" />
+>>>>>>> ee91ca6 (old model with meshes)
       </geometry>
     </visual>
   </link>
@@ -31,7 +35,11 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
+<<<<<<< HEAD
         <cylinder radius="0.05" length="0.12" />
+=======
+                <cylinder radius="0.045" length="0.12" />
+>>>>>>> ee91ca6 (old model with meshes)
       </geometry>
     </visual>
   </link>
@@ -51,7 +59,11 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
+<<<<<<< HEAD
         <box size="0.12 0.08 0.18" />
+=======
+                <cylinder radius="0.045" length="0.12" />
+>>>>>>> ee91ca6 (old model with meshes)
       </geometry>
     </visual>
   </link>
@@ -71,7 +83,11 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
+<<<<<<< HEAD
         <cylinder radius="0.045" length="0.24" />
+=======
+                <cylinder radius="0.05" length="0.24" />
+>>>>>>> ee91ca6 (old model with meshes)
       </geometry>
     </visual>
   </link>
@@ -91,7 +107,11 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
+<<<<<<< HEAD
         <box size="0.1 0.08 0.2" />
+=======
+                <cylinder radius="0.05" length="0.22" />
+>>>>>>> ee91ca6 (old model with meshes)
       </geometry>
     </visual>
   </link>
@@ -111,7 +131,11 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
+<<<<<<< HEAD
         <box size="0.09 0.07 0.12" />
+=======
+                <box size="0.09 0.12 0.05" />
+>>>>>>> ee91ca6 (old model with meshes)
       </geometry>
     </visual>
   </link>
@@ -131,7 +155,11 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
+<<<<<<< HEAD
         <box size="0.16 0.09 0.05" />
+=======
+                <box size="0.12 0.1 0.05" />
+>>>>>>> ee91ca6 (old model with meshes)
       </geometry>
     </visual>
   </link>
@@ -229,7 +257,11 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
+<<<<<<< HEAD
         <cylinder radius="0.05" length="0.12" />
+=======
+                <cylinder radius="0.045" length="0.12" />
+>>>>>>> ee91ca6 (old model with meshes)
       </geometry>
     </visual>
   </link>
@@ -249,7 +281,11 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
+<<<<<<< HEAD
         <box size="0.12 0.08 0.18" />
+=======
+                <cylinder radius="0.045" length="0.12" />
+>>>>>>> ee91ca6 (old model with meshes)
       </geometry>
     </visual>
   </link>
@@ -269,7 +305,11 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
+<<<<<<< HEAD
         <cylinder radius="0.045" length="0.24" />
+=======
+                <cylinder radius="0.05" length="0.24" />
+>>>>>>> ee91ca6 (old model with meshes)
       </geometry>
     </visual>
   </link>
@@ -289,7 +329,11 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
+<<<<<<< HEAD
         <box size="0.1 0.08 0.2" />
+=======
+                <cylinder radius="0.05" length="0.22" />
+>>>>>>> ee91ca6 (old model with meshes)
       </geometry>
     </visual>
   </link>
@@ -309,7 +353,11 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
+<<<<<<< HEAD
         <box size="0.09 0.07 0.12" />
+=======
+                <box size="0.09 0.12 0.05" />
+>>>>>>> ee91ca6 (old model with meshes)
       </geometry>
     </visual>
   </link>
@@ -329,7 +377,11 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
+<<<<<<< HEAD
         <box size="0.16 0.09 0.05" />
+=======
+                <box size="0.12 0.1 0.05" />
+>>>>>>> ee91ca6 (old model with meshes)
       </geometry>
     </visual>
   </link>
@@ -427,7 +479,11 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
+<<<<<<< HEAD
         <cylinder radius="0.04" length="0.12" />
+=======
+                <cylinder radius="0.04" length="0.14" />
+>>>>>>> ee91ca6 (old model with meshes)
       </geometry>
     </visual>
   </link>
@@ -447,7 +503,11 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
+<<<<<<< HEAD
         <box size="0.1 0.08 0.14" />
+=======
+                <cylinder radius="0.035" length="0.14" />
+>>>>>>> ee91ca6 (old model with meshes)
       </geometry>
     </visual>
   </link>
@@ -467,7 +527,11 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
+<<<<<<< HEAD
         <cylinder radius="0.04" length="0.26" />
+=======
+                <cylinder radius="0.035" length="0.22" />
+>>>>>>> ee91ca6 (old model with meshes)
       </geometry>
     </visual>
   </link>
@@ -487,7 +551,11 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
+<<<<<<< HEAD
         <box size="0.08 0.08 0.18" />
+=======
+                <cylinder radius="0.035" length="0.22" />
+>>>>>>> ee91ca6 (old model with meshes)
       </geometry>
     </visual>
   </link>
@@ -507,7 +575,11 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
+<<<<<<< HEAD
         <box size="0.06 0.08 0.16" />
+=======
+                <cylinder radius="0.03" length="0.14" />
+>>>>>>> ee91ca6 (old model with meshes)
       </geometry>
     </visual>
   </link>
@@ -527,7 +599,11 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
+<<<<<<< HEAD
         <cylinder radius="0.03" length="0.14" />
+=======
+                <cylinder radius="0.03" length="0.12" />
+>>>>>>> ee91ca6 (old model with meshes)
       </geometry>
     </visual>
   </link>
@@ -547,7 +623,11 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
+<<<<<<< HEAD
         <box size="0.05 0.07 0.14" />
+=======
+                <cylinder radius="0.03" length="0.12" />
+>>>>>>> ee91ca6 (old model with meshes)
       </geometry>
     </visual>
   </link>
@@ -644,7 +724,11 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
+<<<<<<< HEAD
         <cylinder radius="0.04" length="0.12" />
+=======
+                <cylinder radius="0.04" length="0.14" />
+>>>>>>> ee91ca6 (old model with meshes)
       </geometry>
     </visual>
   </link>
@@ -664,7 +748,11 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
+<<<<<<< HEAD
         <box size="0.1 0.08 0.14" />
+=======
+                <cylinder radius="0.035" length="0.14" />
+>>>>>>> ee91ca6 (old model with meshes)
       </geometry>
     </visual>
   </link>
@@ -684,7 +772,11 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
+<<<<<<< HEAD
         <cylinder radius="0.04" length="0.26" />
+=======
+                <cylinder radius="0.035" length="0.22" />
+>>>>>>> ee91ca6 (old model with meshes)
       </geometry>
     </visual>
   </link>
@@ -704,7 +796,11 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
+<<<<<<< HEAD
         <box size="0.08 0.08 0.18" />
+=======
+                <cylinder radius="0.035" length="0.22" />
+>>>>>>> ee91ca6 (old model with meshes)
       </geometry>
     </visual>
   </link>
@@ -724,7 +820,11 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
+<<<<<<< HEAD
         <box size="0.06 0.08 0.16" />
+=======
+                <cylinder radius="0.03" length="0.14" />
+>>>>>>> ee91ca6 (old model with meshes)
       </geometry>
     </visual>
   </link>
@@ -744,7 +844,11 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
+<<<<<<< HEAD
         <cylinder radius="0.03" length="0.14" />
+=======
+                <cylinder radius="0.03" length="0.12" />
+>>>>>>> ee91ca6 (old model with meshes)
       </geometry>
     </visual>
   </link>
@@ -764,7 +868,11 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
+<<<<<<< HEAD
         <box size="0.05 0.07 0.14" />
+=======
+                <cylinder radius="0.03" length="0.12" />
+>>>>>>> ee91ca6 (old model with meshes)
       </geometry>
     </visual>
   </link>
@@ -861,7 +969,11 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
+<<<<<<< HEAD
         <cylinder radius="0.05" length="0.1" />
+=======
+                <cylinder radius="0.06" length="0.08" />
+>>>>>>> ee91ca6 (old model with meshes)
       </geometry>
     </visual>
   </link>
@@ -881,7 +993,11 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
+<<<<<<< HEAD
         <box size="0.16 0.14 0.2" />
+=======
+                <sphere radius="0.09" />
+>>>>>>> ee91ca6 (old model with meshes)
       </geometry>
     </visual>
   </link>
@@ -901,7 +1017,11 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
+<<<<<<< HEAD
         <box size="0.06 0.04 0.04" />
+=======
+                <box size="0.05 0.05 0.05" />
+>>>>>>> ee91ca6 (old model with meshes)
       </geometry>
     </visual>
   </link>
@@ -932,7 +1052,11 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
+<<<<<<< HEAD
         <mesh filename="camera_base.STL" scale="1 1 1" />
+=======
+                <box size="0.05 0.05 0.05" />
+>>>>>>> ee91ca6 (old model with meshes)
       </geometry>
     </visual>
     <collision>
