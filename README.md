@@ -25,7 +25,7 @@
 
 
 
-# **Docker** #
+# **Docker & Conda** #
 ---
 **If you don't have Radxa, but have another `arm64` based device, you can use docker environment from folder `docker` to conduct expirients.**
 
@@ -44,9 +44,15 @@ docker run -it \
   -v /dev:/dev \
   ros2_jazzy_ubuntu24_arm64:latest \
   bash
-
 ```
 
+**You also can replicate conda env by using file in `/env/env_exo_jazzy.yaml`**
+Use following command to create env: 
+
+```bash
+conda env create -f env_exo_jazzy.yml
+conda activate exo_suit_jazzy
+```
 
 # **Data collection on real robot | KUAVO** #
 ---
