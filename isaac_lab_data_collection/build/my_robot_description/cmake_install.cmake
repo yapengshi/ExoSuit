@@ -47,6 +47,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     "/root/Synthetic_data_collection/isaac_lab_data_collection/src/my_robot_description/urdf"
     "/root/Synthetic_data_collection/isaac_lab_data_collection/src/my_robot_description/meshes"
     "/root/Synthetic_data_collection/isaac_lab_data_collection/src/my_robot_description/launch"
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/src/my_robot_description/config"
     )
 endif()
 

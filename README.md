@@ -24,6 +24,30 @@
 - Data collection in simulation
 
 
+
+# **Docker** #
+---
+**If you don't have Radxa, but have another `arm64` based device, you can use docker environment from folder `docker` to conduct expirients.**
+
+Use following command to create contaier: 
+
+```bash 
+docker run -it \
+  --name ros2_jazzy_ubuntu24_arm64 \
+  --network host \
+  --privileged \
+  --ipc=host \
+  --pid=host \
+  -e DISPLAY=$DISPLAY \
+  -e QT_X11_NO_MITSHM=1 \
+  -v /tmp/.X11-unix:/tmp/.X11-unix:rw \
+  -v /dev:/dev \
+  ros2_jazzy_ubuntu24_arm64:latest \
+  bash
+
+```
+
+
 # **Data collection on real robot | KUAVO** #
 ---
 # **On KUAVO** #
@@ -111,3 +135,6 @@ You will start `tmux` session with 4  terminals, each related to data collection
 - to start/stop servo angle publishing press "Y" on right Joycon.
 - to start/stop grip state publishing press "A" on right Joycon. To open/close robot's grip hit ZR/ZL on joycons.
 - to start/stop data collection press "X" on right Joycon. All records are stored inside `/ExoSuit/records/`.
+
+
+
