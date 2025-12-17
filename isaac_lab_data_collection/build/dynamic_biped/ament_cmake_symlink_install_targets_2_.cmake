@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_generator_py/dynamic_biped/dynamic_biped_s__rosidl_typesupport_c.so" "TARGETS" "dynamic_biped_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/dynamic_biped")

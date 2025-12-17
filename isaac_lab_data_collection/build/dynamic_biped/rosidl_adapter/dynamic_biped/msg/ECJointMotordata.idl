@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from dynamic_biped/msg/ECJointMotordata.msg
+// generated code does not contain a copyright notice
+
+
+module dynamic_biped {
+  module msg {
+    struct ECJointMotordata {
+      int32 l_pos_pitch;
+
+      int32 l_pos_yaw;
+
+      int32 l_pos_end;
+
+      int32 r_pos_pitch;
+
+      int32 r_pos_yaw;
+
+      int32 r_pos_end;
+    };
+  };
+};

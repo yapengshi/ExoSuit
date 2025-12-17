@@ -1,0 +1,1 @@
+/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_generator_cpp/dynamic_biped/msg/robot_hand_eff.hpp

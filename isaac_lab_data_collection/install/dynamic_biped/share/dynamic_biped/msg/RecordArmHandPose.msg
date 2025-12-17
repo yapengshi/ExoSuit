@@ -1,0 +1,1 @@
+/root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped/msg/RecordArmHandPose.msg

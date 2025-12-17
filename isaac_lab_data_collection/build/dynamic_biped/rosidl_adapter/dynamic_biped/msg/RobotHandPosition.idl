@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from dynamic_biped/msg/RobotHandPosition.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module dynamic_biped {
+  module msg {
+    struct RobotHandPosition {
+      std_msgs::msg::Header header;
+
+      sequence<uint8> left_hand_position;
+
+      sequence<uint8> right_hand_position;
+    };
+  };
+};

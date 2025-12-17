@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "dynamic_biped/srv/ControlEndHand_Response",
+      "fields": [
+        {
+          "name": "result",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "dynamic_biped/srv/ControlEndHand_Response",
+      "hash_string": "RIHS01_d4ad2c5b9702800e7c6411189d382ab6baeaa43a0c9a885ffccf0b16516151fc"
+    }
+  ]
+}

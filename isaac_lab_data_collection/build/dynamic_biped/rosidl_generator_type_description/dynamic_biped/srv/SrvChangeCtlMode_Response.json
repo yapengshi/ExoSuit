@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "dynamic_biped/srv/SrvChangeCtlMode_Response",
+      "fields": [
+        {
+          "name": "control_mode",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "dynamic_biped/srv/SrvChangeCtlMode_Response",
+      "hash_string": "RIHS01_799a5abb85b0acd3bade9a5e9f64c0cd0b82e559e90bddf75911ec91acdac056"
+    }
+  ]
+}

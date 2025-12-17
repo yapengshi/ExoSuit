@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "dynamic_biped/srv/ChangeAMBACCtrlMode_Response",
+      "fields": [
+        {
+          "name": "result",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "dynamic_biped/srv/ChangeAMBACCtrlMode_Response",
+      "hash_string": "RIHS01_2b4d5d1279d81e25064474161e1c6a2571fac4c7e865b3587e8a14b00b21f29a"
+    }
+  ]
+}

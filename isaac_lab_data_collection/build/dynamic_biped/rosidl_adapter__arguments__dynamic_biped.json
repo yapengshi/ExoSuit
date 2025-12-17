@@ -1,0 +1,28 @@
+{
+  "package_name": "dynamic_biped",
+  "non_idl_tuples": [
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped:msg/ArmHandPose.msg",
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped:msg/ECJointMotordata.msg",
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped:msg/HandRotationEular.msg",
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped:msg/HandRotation.msg",
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped:msg/QuaternionArray.msg",
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped:msg/RecordArmHandPose.msg",
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped:msg/RobotArmInfo.msg",
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped:msg/RobotArmQVVD.msg",
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped:msg/RobotHandEff.msg",
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped:msg/RobotHandPosition.msg",
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped:msg/RobotHeadMotionData.msg",
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped:msg/RobotPhase.msg",
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped:msg/RobotQVTau.msg",
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped:msg/RobotTorsoState.msg",
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped:msg/WalkCommand.msg",
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped:srv/ChangeAMBACCtrlMode.srv",
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped:srv/ChangeArmCtrlMode.srv",
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped:srv/ControlEndHand.srv",
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped:srv/SrvChangeCtlMode.srv",
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped:srv/SrvChangeJoller.srv",
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped:srv/SrvChangePhases.srv",
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped:srv/SrvClearPositionCMD.srv",
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped:srv/SrvManiInst.srv"
+  ]
+}

@@ -1,0 +1,1 @@
+/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_typesupport_introspection_c/dynamic_biped/msg/rosidl_typesupport_introspection_c__visibility_control.h

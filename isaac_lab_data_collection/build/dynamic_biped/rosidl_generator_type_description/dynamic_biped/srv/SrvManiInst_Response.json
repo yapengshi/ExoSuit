@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "dynamic_biped/srv/SrvManiInst_Response",
+      "fields": [
+        {
+          "name": "state_res",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "dynamic_biped/srv/SrvManiInst_Response",
+      "hash_string": "RIHS01_5080df2583d8dd49fae28d73592b19b0c882d8957c3226d3e5ca7c78431f4dbf"
+    }
+  ]
+}

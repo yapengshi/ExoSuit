@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "dynamic_biped/srv/SrvClearPositionCMD_Response",
+      "fields": [
+        {
+          "name": "result",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "dynamic_biped/srv/SrvClearPositionCMD_Response",
+      "hash_string": "RIHS01_27ab8469cb8010d880e522972a930046495af004a72c7fad04632be7d9aacac3"
+    }
+  ]
+}

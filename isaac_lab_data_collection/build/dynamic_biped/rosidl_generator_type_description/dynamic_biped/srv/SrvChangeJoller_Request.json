@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "dynamic_biped/srv/SrvChangeJoller_Request",
+      "fields": [
+        {
+          "name": "l_pos",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "r_pos",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "dynamic_biped/srv/SrvChangeJoller_Request",
+      "hash_string": "RIHS01_a8b90a96ac9c89704b2642cdd0f93bd9598f81b3fe476282fc0a8eec9eeb128b"
+    }
+  ]
+}

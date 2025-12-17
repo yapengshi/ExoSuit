@@ -1,0 +1,1 @@
+/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_generator_c/dynamic_biped/srv/detail/srv_change_ctl_mode__functions.h

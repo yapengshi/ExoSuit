@@ -1,0 +1,155 @@
+[0.025s] Invoking command in '/root/Synthetic_data_collection/isaac_lab_data_collection/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(exo_suit_jazzy_v2) /usr/bin/cmake /root/Synthetic_data_collection/isaac_lab_data_collection/src/my_robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description
+[0.198s] -- The C compiler identification is GNU 13.3.0
+[0.353s] -- The CXX compiler identification is GNU 13.3.0
+[0.399s] -- Detecting C compiler ABI info
+[0.725s] -- Detecting C compiler ABI info - done
+[0.741s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.742s] -- Detecting C compile features
+[0.742s] -- Detecting C compile features - done
+[0.764s] -- Detecting CXX compiler ABI info
+[1.026s] -- Detecting CXX compiler ABI info - done
+[1.042s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.043s] -- Detecting CXX compile features
+[1.044s] -- Detecting CXX compile features - done
+[1.069s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.360s] -- Found Python3: /root/miniforge3/envs/exo_suit_jazzy_v2/bin/python3 (found version "3.12.12") found components: Interpreter 
+[1.528s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.815s] -- Configuring done (1.8s)
+[1.821s] -- Generating done (0.0s)
+[1.825s] -- Build files have been written to: /root/Synthetic_data_collection/isaac_lab_data_collection/build/my_robot_description
+[1.839s] Invoked command in '/root/Synthetic_data_collection/isaac_lab_data_collection/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(exo_suit_jazzy_v2) /usr/bin/cmake /root/Synthetic_data_collection/isaac_lab_data_collection/src/my_robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description
+[1.845s] Invoking command in '/root/Synthetic_data_collection/isaac_lab_data_collection/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(exo_suit_jazzy_v2) /usr/bin/cmake --build /root/Synthetic_data_collection/isaac_lab_data_collection/build/my_robot_description -- -j8 -l8
+[1.991s] Invoked command in '/root/Synthetic_data_collection/isaac_lab_data_collection/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(exo_suit_jazzy_v2) /usr/bin/cmake --build /root/Synthetic_data_collection/isaac_lab_data_collection/build/my_robot_description -- -j8 -l8
+[2.026s] Invoking command in '/root/Synthetic_data_collection/isaac_lab_data_collection/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(exo_suit_jazzy_v2) /usr/bin/cmake --install /root/Synthetic_data_collection/isaac_lab_data_collection/build/my_robot_description
+[2.042s] -- Install configuration: ""
+[2.043s] -- Execute custom install script
+[2.044s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/urdf/biped_s40.urdf
+[2.076s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/urdf/biped_s40_primitives.urdf
+[2.094s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/urdf/biped_s45.urdf
+[2.113s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/urdf/biped_s45.usd
+[2.225s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s40_meshes/base_link.STL
+[2.243s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s40_meshes/camera.STL
+[2.262s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s40_meshes/camera_base.STL
+[2.295s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s40_meshes/head_pitch.STL
+[2.327s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s40_meshes/head_yaw.STL
+[2.360s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s40_meshes/l_arm_pitch.STL
+[2.392s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s40_meshes/l_arm_roll.STL
+[2.424s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s40_meshes/l_arm_yaw.STL
+[2.458s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s40_meshes/l_foot_pitch.STL
+[2.491s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s40_meshes/l_foot_roll.STL
+[2.524s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s40_meshes/l_forearm.STL
+[2.545s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s40_meshes/l_hand_pitch.STL
+[2.564s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s40_meshes/l_hand_roll.STL
+[2.584s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s40_meshes/l_hand_yaw.STL
+[2.610s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s40_meshes/l_knee.STL
+[2.633s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s40_meshes/l_l_bar.STL
+[2.648s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s40_meshes/l_l_tendon.STL
+[2.663s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s40_meshes/l_leg_pitch.STL
+[2.677s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s40_meshes/l_leg_roll.STL
+[2.691s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s40_meshes/l_leg_yaw.STL
+[2.722s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s40_meshes/l_r_bar.STL
+[2.753s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s40_meshes/l_r_tendon.STL
+[2.774s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s40_meshes/r_arm_pitch.STL
+[2.795s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s40_meshes/r_arm_roll.STL
+[2.815s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s40_meshes/r_arm_yaw.STL
+[2.834s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s40_meshes/r_foot_pitch.STL
+[2.867s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s40_meshes/r_foot_roll.STL
+[2.902s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s40_meshes/r_forearm.STL
+[2.923s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s40_meshes/r_hand_pitch.STL
+[2.945s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s40_meshes/r_hand_roll.STL
+[2.965s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s40_meshes/r_hand_yaw.STL
+[2.985s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s40_meshes/r_knee.STL
+[3.005s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s40_meshes/r_l_bar.STL
+[3.026s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s40_meshes/r_l_tendon.STL
+[3.046s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s40_meshes/r_leg_pitch.STL
+[3.066s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s40_meshes/r_leg_roll.STL
+[3.099s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s40_meshes/r_leg_yaw.STL
+[3.119s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s40_meshes/r_r_bar.STL
+[3.138s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s40_meshes/r_r_tendon.STL
+[3.158s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/2f85/2f85.xml
+[3.178s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/2f85/base.stl
+[3.197s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/2f85/base_mount.stl
+[3.216s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/2f85/coupler.stl
+[3.234s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/2f85/driver.stl
+[3.252s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/2f85/follower.stl
+[3.272s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/2f85/inner_finger_coarse_new.STL
+[3.303s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/2f85/inner_finger_fine_new.STL
+[3.325s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/2f85/inner_knuckle_coarse_new.STL
+[3.346s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/2f85/inner_knuckle_fine_new.STL
+[3.366s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/2f85/outer_finger_coarse_new.STL
+[3.386s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/2f85/outer_finger_fine_new.STL
+[3.406s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/2f85/outer_knuckle_coarse_new.STL
+[3.441s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/2f85/outer_knuckle_fine_new.STL
+[3.460s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/2f85/pad.stl
+[3.491s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/2f85/robotiq_85.xml
+[3.510s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/2f85/robotiq_85_base_link_coarse_new.STL
+[3.527s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/2f85/robotiq_85_base_link_fine_new.STL
+[3.546s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/2f85/silicone_pad.stl
+[3.578s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/2f85/spring_link.stl
+[3.612s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/D405.stl
+[3.647s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/camera.STL
+[3.679s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/camera_base.STL
+[3.698s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/head_pitch.STL
+[3.718s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/head_yaw.STL
+[3.737s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/l_arm_foream.STL
+[3.756s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/l_arm_pitch.STL
+[3.775s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/l_arm_roll.STL
+[3.795s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/l_arm_yaw.STL
+[3.815s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/l_foot_pitch.STL
+[3.851s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/l_foot_roll.STL
+[3.869s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/l_forearm.STL
+[3.887s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/l_hand_pitch.STL
+[3.906s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/l_hand_roll.STL
+[3.926s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/l_hand_yaw.STL
+[3.959s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/l_knee.STL
+[3.992s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/l_knee_bar.STL
+[4.029s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/l_knee_tendon.STL
+[4.062s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/l_l_bar.STL
+[4.095s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/l_l_tendon.STL
+[4.114s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/l_leg_pitch.STL
+[4.133s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/l_leg_roll.STL
+[4.168s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/l_leg_yaw.STL
+[4.200s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/l_r_bar.STL
+[4.220s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/l_r_tendon.STL
+[4.252s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/r_arm_pitch.STL
+[4.271s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/r_arm_roll.STL
+[4.291s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/r_arm_yaw.STL
+[4.325s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/r_foot_pitch.STL
+[4.361s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/r_foot_roll.STL
+[4.382s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/r_foream.STL
+[4.400s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/r_forearm.STL
+[4.419s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/r_hand_pitch.STL
+[4.440s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/r_hand_roll.STL
+[4.459s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/r_hand_yaw.STL
+[4.477s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/r_knee.STL
+[4.496s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/r_knee_bar.STL
+[4.516s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/r_knee_tendon.STL
+[4.535s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/r_l_bar.STL
+[4.556s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/r_l_tendon.STL
+[4.575s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/r_leg_pitch.STL
+[4.612s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/r_leg_roll.STL
+[4.632s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/r_leg_yaw.STL
+[4.651s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/r_r_bar.STL
+[4.671s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/r_r_tendon.STL
+[4.705s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/radar.STL
+[4.739s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/meshes/biped_s45_meshes/torso.STL
+[4.775s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/launch/display_launch.py
+[4.794s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/launch/s40_display_launch.py
+[4.813s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/launch/s45_display_launch.py
+[4.834s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/config/joint_names_biped_s45.yaml
+[4.868s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description
+[4.887s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description
+[4.908s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh
+[4.928s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv
+[4.963s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/environment/path.sh
+[4.996s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/environment/path.dsv
+[5.029s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/local_setup.bash
+[5.048s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/local_setup.sh
+[5.068s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/local_setup.zsh
+[5.099s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/local_setup.dsv
+[5.119s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/package.dsv
+[5.151s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description
+[5.171s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake
+[5.191s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake
+[5.210s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/package.xml
+[5.238s] Invoked command in '/root/Synthetic_data_collection/isaac_lab_data_collection/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(exo_suit_jazzy_v2) /usr/bin/cmake --install /root/Synthetic_data_collection/isaac_lab_data_collection/build/my_robot_description

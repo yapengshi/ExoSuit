@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dynamic_biped/srv/ControlEndHand.srv
+// generated code does not contain a copyright notice
+
+
+module dynamic_biped {
+  module srv {
+    struct ControlEndHand_Request {
+      sequence<uint8> left_hand_position;
+
+      sequence<uint8> right_hand_position;
+    };
+    struct ControlEndHand_Response {
+      boolean result;
+    };
+  };
+};

@@ -25,7 +25,7 @@ AMENT_CMAKE_ENVIRONMENT_PARENT_PREFIX_PATH_GENERATION:BOOL=ON
 
 //Replace the CMake install command with a custom implementation
 // using symlinks instead of copying resources
-AMENT_CMAKE_SYMLINK_INSTALL:BOOL=OFF
+AMENT_CMAKE_SYMLINK_INSTALL:BOOL=1
 
 //Generate an uninstall target to revert the effects of the install
 // step
@@ -238,9 +238,6 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
-//No help, variable specified on the command line.
-Python3_EXECUTABLE:UNINITIALIZED=/usr/bin/python3
-
 //Name of the computer/site where compile is being run
 SITE:STRING=rock-5c
 
@@ -452,17 +449,20 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding Python3
-FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/usr/bin/python3][cfound components: Interpreter ][v3.12.3()]
+FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/root/miniforge3/envs/exo_suit_jazzy_v2/bin/python3][cfound components: Interpreter ][v3.12.12()]
 //linker supports push/pop state
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 //Compiler reason failure
 _Python3_Compiler_REASON_FAILURE:INTERNAL=
 //Development reason failure
 _Python3_Development_REASON_FAILURE:INTERNAL=
-_Python3_EXECUTABLE:INTERNAL=/usr/bin/python3
+//Path to a program.
+_Python3_EXECUTABLE:INTERNAL=/root/miniforge3/envs/exo_suit_jazzy_v2/bin/python3
 //Python3 Properties
-_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;12;3;64;32;;cpython-312-aarch64-linux-gnu;abi3;/usr/lib/python3.12;/usr/lib/python3.12;/usr/local/lib/python3.12/dist-packages;/usr/local/lib/python3.12/dist-packages
-_Python3_INTERPRETER_SIGNATURE:INTERNAL=4c8bfa8951e99fa32e4000a94f8c04a2
+_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;12;12;64;32;;cpython-312-aarch64-linux-gnu;abi3;/root/miniforge3/envs/exo_suit_jazzy_v2/lib/python3.12;/root/miniforge3/envs/exo_suit_jazzy_v2/lib/python3.12;/root/miniforge3/envs/exo_suit_jazzy_v2/lib/python3.12/site-packages;/root/miniforge3/envs/exo_suit_jazzy_v2/lib/python3.12/site-packages
+_Python3_INTERPRETER_SIGNATURE:INTERNAL=d83a08e6ae41dc30917b672398535691
 //NumPy reason failure
 _Python3_NumPy_REASON_FAILURE:INTERNAL=
+//Index for unique symlink install targets
+__AMENT_CMAKE_SYMLINK_INSTALL_TARGETS_INDEX:INTERNAL=0
 

@@ -1,0 +1,1 @@
+/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/ament_cmake_core/dynamic_bipedConfig-version.cmake

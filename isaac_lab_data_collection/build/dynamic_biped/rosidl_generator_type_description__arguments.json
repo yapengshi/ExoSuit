@@ -1,0 +1,35 @@
+{
+  "package_name": "dynamic_biped",
+  "output_dir": "/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_generator_type_description/dynamic_biped",
+  "idl_tuples": [
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_adapter/dynamic_biped:msg/ArmHandPose.idl",
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_adapter/dynamic_biped:msg/ECJointMotordata.idl",
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_adapter/dynamic_biped:msg/HandRotationEular.idl",
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_adapter/dynamic_biped:msg/HandRotation.idl",
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_adapter/dynamic_biped:msg/QuaternionArray.idl",
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_adapter/dynamic_biped:msg/RecordArmHandPose.idl",
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_adapter/dynamic_biped:msg/RobotArmInfo.idl",
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_adapter/dynamic_biped:msg/RobotArmQVVD.idl",
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_adapter/dynamic_biped:msg/RobotHandEff.idl",
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_adapter/dynamic_biped:msg/RobotHandPosition.idl",
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_adapter/dynamic_biped:msg/RobotHeadMotionData.idl",
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_adapter/dynamic_biped:msg/RobotPhase.idl",
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_adapter/dynamic_biped:msg/RobotQVTau.idl",
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_adapter/dynamic_biped:msg/RobotTorsoState.idl",
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_adapter/dynamic_biped:msg/WalkCommand.idl",
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_adapter/dynamic_biped:srv/ChangeAMBACCtrlMode.idl",
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_adapter/dynamic_biped:srv/ChangeArmCtrlMode.idl",
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_adapter/dynamic_biped:srv/ControlEndHand.idl",
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_adapter/dynamic_biped:srv/SrvChangeCtlMode.idl",
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_adapter/dynamic_biped:srv/SrvChangeJoller.idl",
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_adapter/dynamic_biped:srv/SrvChangePhases.idl",
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_adapter/dynamic_biped:srv/SrvClearPositionCMD.idl",
+    "/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_adapter/dynamic_biped:srv/SrvManiInst.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

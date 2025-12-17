@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dynamic_biped/srv/SrvManiInst.srv
+// generated code does not contain a copyright notice
+
+
+module dynamic_biped {
+  module srv {
+    struct SrvManiInst_Request {
+      string intruction;
+    };
+    struct SrvManiInst_Response {
+      int8 state_res;
+    };
+  };
+};

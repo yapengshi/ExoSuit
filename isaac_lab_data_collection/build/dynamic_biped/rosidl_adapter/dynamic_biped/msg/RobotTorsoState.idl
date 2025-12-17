@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from dynamic_biped/msg/RobotTorsoState.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Vector3.idl"
+
+module dynamic_biped {
+  module msg {
+    struct RobotTorsoState {
+      geometry_msgs::msg::Vector3 torso_r;
+
+      geometry_msgs::msg::Vector3 torso_rd;
+
+      geometry_msgs::msg::Vector3 torso_rdd;
+
+      geometry_msgs::msg::Vector3 r;
+
+      geometry_msgs::msg::Vector3 rd;
+
+      geometry_msgs::msg::Vector3 rdd;
+    };
+  };
+};
