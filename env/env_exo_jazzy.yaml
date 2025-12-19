@@ -1,6 +1,0 @@
-name: exo_suit_jazzy
-channels:
-  - conda-forge
-dependencies:
-  - python=3.10
-prefix: /root/miniforge3/envs/exo_suit_jazzy

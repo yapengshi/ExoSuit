@@ -33,7 +33,7 @@ Use following command to create contaier:
 
 ```bash 
 docker run -it \
-  --name ros2_jazzy_ubuntu24_arm64 \
+  --name ros2_jazzy_ubuntu24_arm64_v2_2 \
   --network host \
   --privileged \
   --ipc=host \
@@ -42,25 +42,28 @@ docker run -it \
   -e QT_X11_NO_MITSHM=1 \
   -v /tmp/.X11-unix:/tmp/.X11-unix:rw \
   -v /dev/dri:/dev/dri \
+  -v /dev/input:/dev/input \
   --device=/dev/ttyACM0 \
   --device=/dev/ttyACM1 \
-  --device=/dev/input \
   --device=/dev/hidraw0 \
   --device=/dev/hidraw1 \
+  -v /lib/modules:/lib/modules:rw \
+  -v /usr/src:/usr/src:rw \
+  -v /var/lib/dkms:/var/lib/dkms:rw \
   --tmpfs /run:rw \
   --tmpfs /run/lock:rw \
-  --tmpfs /lib/modules:rw \
   ros2_jazzy_ubuntu24_arm64:latest \
   bash
-
 ```
 
 **You also can replicate conda env by using file in `/env/env_exo_jazzy.yaml`**
 Use following command to create env: 
 
 ```bash
-conda env create -f exo_suit_jazzy_v2_1.yml
-conda activate exo_suit_jazzy_v2_1
+conda env create -f env_exo_suit_jazzy_v2_2.yml
+conda activate exo_suit_jazzy_v2_2
+python -m pip install -r requirements_exo_suit_jazzy_v2_2.txt
+
 ```
 
 # **Data collection on real robot | KUAVO** #
