@@ -7,7 +7,7 @@ import rclpy
 from rclpy.node import Node
 
 from std_msgs.msg import Float32MultiArray
-import scservo_sdk.scservo_sdk as scs
+import scservo_sdk as scs
 from sensor_msgs.msg import JointState
 # from joyconrobotics import JoyconRobotics  # add Joy-Con
 
