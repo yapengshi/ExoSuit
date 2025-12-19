@@ -166,7 +166,7 @@ rosidl_typesupport_introspection_c/dynamic_biped/msg/detail/arm_hand_pose__rosid
 rosidl_typesupport_introspection_c/dynamic_biped/msg/detail/arm_hand_pose__rosidl_typesupport_introspection_c.h: /opt/ros/jazzy/share/geometry_msgs/msg/WrenchStamped.idl
 rosidl_typesupport_introspection_c/dynamic_biped/msg/detail/arm_hand_pose__rosidl_typesupport_introspection_c.h: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C introspection for ROS interfaces"
-	/root/miniforge3/envs/exo_suit_jazzy_v2/bin/python3 /opt/ros/jazzy/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_typesupport_introspection_c__arguments.json
+	/opt/conda/envs/exo_suit_jazzy_v2_2/bin/python3 /opt/ros/jazzy/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_typesupport_introspection_c__arguments.json
 
 rosidl_typesupport_introspection_c/dynamic_biped/msg/detail/ec_joint_motordata__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/dynamic_biped/msg/detail/arm_hand_pose__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/dynamic_biped/msg/detail/ec_joint_motordata__rosidl_typesupport_introspection_c.h

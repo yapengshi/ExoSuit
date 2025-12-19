@@ -14,7 +14,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://my_robot_description/meshes/base_link.STL" scale="1 1 1" />
+        <mesh filename="package://my_robot_description/meshes/biped_s40_meshes/base_link.STL" scale="1 1 1" />
       </geometry>
     </visual>
   </link>
@@ -32,7 +32,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://my_robot_description/meshes/l_leg_roll.STL" scale="1 1 1" />
+        <mesh filename="package://my_robot_description/meshes/biped_s40_meshes/l_leg_roll.STL" scale="1 1 1" />
       </geometry>
     </visual>
   </link>
@@ -52,7 +52,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://my_robot_description/meshes/l_leg_yaw.STL" scale="1 1 1" />
+        <mesh filename="package://my_robot_description/meshes/biped_s40_meshes/l_leg_yaw.STL" scale="1 1 1" />
       </geometry>
     </visual>
   </link>
@@ -72,7 +72,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://my_robot_description/meshes/l_leg_pitch.STL" scale="1 1 1" />
+        <mesh filename="package://my_robot_description/meshes/biped_s40_meshes/l_leg_pitch.STL" scale="1 1 1" />
       </geometry>
     </visual>
   </link>
@@ -92,7 +92,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://my_robot_description/meshes/l_knee.STL" scale="1 1 1" />
+        <mesh filename="package://my_robot_description/meshes/biped_s40_meshes/l_knee.STL" scale="1 1 1" />
       </geometry>
     </visual>
   </link>
@@ -112,7 +112,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://my_robot_description/meshes/l_foot_pitch.STL" scale="1 1 1" />
+        <mesh filename="package://my_robot_description/meshes/biped_s40_meshes/l_foot_pitch.STL" scale="1 1 1" />
       </geometry>
     </visual>
   </link>
@@ -132,7 +132,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://my_robot_description/meshes/l_foot_roll.STL" scale="1 1 1" />
+        <mesh filename="package://my_robot_description/meshes/biped_s40_meshes/l_foot_roll.STL" scale="1 1 1" />
       </geometry>
     </visual>
   </link>
@@ -230,7 +230,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://my_robot_description/meshes/r_leg_roll.STL" scale="1 1 1" />
+        <mesh filename="package://my_robot_description/meshes/biped_s40_meshes/r_leg_roll.STL" scale="1 1 1" />
       </geometry>
     </visual>
   </link>
@@ -250,7 +250,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://my_robot_description/meshes/r_leg_yaw.STL" scale="1 1 1" />
+        <mesh filename="package://my_robot_description/meshes/biped_s40_meshes/r_leg_yaw.STL" scale="1 1 1" />
       </geometry>
     </visual>
   </link>
@@ -270,7 +270,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://my_robot_description/meshes/r_leg_pitch.STL" scale="1 1 1" />
+        <mesh filename="package://my_robot_description/meshes/biped_s40_meshes/r_leg_pitch.STL" scale="1 1 1" />
       </geometry>
     </visual>
   </link>
@@ -290,7 +290,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://my_robot_description/meshes/r_knee.STL" scale="1 1 1" />
+        <mesh filename="package://my_robot_description/meshes/biped_s40_meshes/r_knee.STL" scale="1 1 1" />
       </geometry>
     </visual>
   </link>
@@ -310,7 +310,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://my_robot_description/meshes/r_foot_pitch.STL" scale="1 1 1" />
+        <mesh filename="package://my_robot_description/meshes/biped_s40_meshes/r_foot_pitch.STL" scale="1 1 1" />
       </geometry>
     </visual>
   </link>
@@ -330,7 +330,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://my_robot_description/meshes/r_foot_roll.STL" scale="1 1 1" />
+        <mesh filename="package://my_robot_description/meshes/biped_s40_meshes/r_foot_roll.STL" scale="1 1 1" />
       </geometry>
     </visual>
   </link>
@@ -428,7 +428,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://my_robot_description/meshes/l_arm_pitch.STL" scale="1 1 1" />
+        <mesh filename="package://my_robot_description/meshes/biped_s40_meshes/l_arm_pitch.STL" scale="1 1 1" />
       </geometry>
     </visual>
   </link>
@@ -448,7 +448,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://my_robot_description/meshes/l_arm_roll.STL" scale="1 1 1" />
+        <mesh filename="package://my_robot_description/meshes/biped_s40_meshes/l_arm_roll.STL" scale="1 1 1" />
       </geometry>
     </visual>
   </link>
@@ -468,7 +468,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://my_robot_description/meshes/l_arm_yaw.STL" scale="1 1 1" />
+        <mesh filename="package://my_robot_description/meshes/biped_s40_meshes/l_arm_yaw.STL" scale="1 1 1" />
       </geometry>
     </visual>
   </link>
@@ -488,7 +488,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://my_robot_description/meshes/l_forearm.STL" scale="1 1 1" />
+        <mesh filename="package://my_robot_description/meshes/biped_s40_meshes/l_forearm.STL" scale="1 1 1" />
       </geometry>
     </visual>
   </link>
@@ -508,7 +508,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://my_robot_description/meshes/l_hand_pitch.STL" scale="1 1 1" />
+        <mesh filename="package://my_robot_description/meshes/biped_s40_meshes/l_hand_pitch.STL" scale="1 1 1" />
       </geometry>
     </visual>
   </link>
@@ -674,7 +674,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://my_robot_description/meshes/r_arm_pitch.STL" scale="1 1 1" />
+        <mesh filename="package://my_robot_description/meshes/biped_s40_meshes/r_arm_pitch.STL" scale="1 1 1" />
       </geometry>
     </visual>
   </link>
@@ -694,7 +694,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://my_robot_description/meshes/r_arm_roll.STL" scale="1 1 1" />
+        <mesh filename="package://my_robot_description/meshes/biped_s40_meshes/r_arm_roll.STL" scale="1 1 1" />
       </geometry>
     </visual>
   </link>
@@ -714,7 +714,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://my_robot_description/meshes/r_arm_yaw.STL" scale="1 1 1" />
+        <mesh filename="package://my_robot_description/meshes/biped_s40_meshes/r_arm_yaw.STL" scale="1 1 1" />
       </geometry>
     </visual>
   </link>
@@ -734,7 +734,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://my_robot_description/meshes/r_forearm.STL" scale="1 1 1" />
+        <mesh filename="package://my_robot_description/meshes/biped_s40_meshes/r_forearm.STL" scale="1 1 1" />
       </geometry>
     </visual>
   </link>
@@ -754,7 +754,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://my_robot_description/meshes/r_hand_pitch.STL" scale="1 1 1" />
+        <mesh filename="package://my_robot_description/meshes/biped_s40_meshes/r_hand_pitch.STL" scale="1 1 1" />
       </geometry>
     </visual>
   </link>
@@ -922,7 +922,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://my_robot_description/meshes/head_yaw.STL" scale="1 1 1" />
+        <mesh filename="package://my_robot_description/meshes/biped_s40_meshes/head_yaw.STL" scale="1 1 1" />
       </geometry>
     </visual>
   </link>
@@ -942,7 +942,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://my_robot_description/meshes/head_pitch.STL" scale="1 1 1" />
+        <mesh filename="package://my_robot_description/meshes/biped_s40_meshes/head_pitch.STL" scale="1 1 1" />
       </geometry>
     </visual>
   </link>
@@ -962,7 +962,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://my_robot_description/meshes/camera.STL" scale="1 1 1" />
+        <mesh filename="package://my_robot_description/meshes/biped_s40_meshes/camera.STL" scale="1 1 1" />
       </geometry>
     </visual>
   </link>
@@ -993,7 +993,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://my_robot_description/meshes/camera_base.STL" scale="1 1 1" />
+        <mesh filename="package://my_robot_description/meshes/biped_s40_meshes/camera_base.STL" scale="1 1 1" />
       </geometry>
     </visual>
     <collision>

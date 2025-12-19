@@ -6,8 +6,8 @@
 
 #include "dynamic_biped/srv/detail/srv_change_ctl_mode__functions.h"
 #include "dynamic_biped/srv/detail/srv_change_ctl_mode__struct.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "dynamic_biped/srv/detail/srv_change_ctl_mode__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

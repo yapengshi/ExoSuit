@@ -571,9 +571,9 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding Python3
-FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/root/miniforge3/envs/exo_suit_jazzy_v2/bin/python3][/root/miniforge3/envs/exo_suit_jazzy_v2/include/python3.12][/root/miniforge3/envs/exo_suit_jazzy_v2/lib/libpython3.12.so][/root/miniforge3/envs/exo_suit_jazzy_v2/lib/python3.12/site-packages/numpy/_core/include][cfound components: Interpreter Development NumPy Development.Module Development.Embed ][v3.12.12()]
+FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/opt/conda/envs/exo_suit_jazzy_v2_2/bin/python3][/opt/conda/envs/exo_suit_jazzy_v2_2/include/python3.12][/opt/conda/envs/exo_suit_jazzy_v2_2/lib/libpython3.12.so][/opt/conda/envs/exo_suit_jazzy_v2_2/lib/python3.12/site-packages/numpy/_core/include][cfound components: Interpreter Development NumPy Development.Module Development.Embed ][v3.12.12()]
 //Details about finding PythonExtra
-FIND_PACKAGE_MESSAGE_DETAILS_PythonExtra:INTERNAL=[/root/miniforge3/envs/exo_suit_jazzy_v2/bin/python3][/root/miniforge3/envs/exo_suit_jazzy_v2/bin/python3][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_PythonExtra:INTERNAL=[/opt/conda/envs/exo_suit_jazzy_v2_2/bin/python3][/opt/conda/envs/exo_suit_jazzy_v2_2/bin/python3][v()]
 //The directory for Python library installation. This needs to
 // be in PYTHONPATH when 'setup.py install' is called.
 PYTHON_INSTALL_DIR:INTERNAL=lib/python3.12/site-packages
@@ -581,21 +581,23 @@ PYTHON_INSTALL_DIR:INTERNAL=lib/python3.12/site-packages
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 //Compiler reason failure
 _Python3_Compiler_REASON_FAILURE:INTERNAL=
-_Python3_DEVELOPMENT_EMBED_SIGNATURE:INTERNAL=e842fb818359058d89d9a95db1b5f1cf
-_Python3_DEVELOPMENT_MODULE_SIGNATURE:INTERNAL=bd65811e6f198bc25156bff7edb42e28
+_Python3_DEVELOPMENT_EMBED_SIGNATURE:INTERNAL=a5969974b926c54140c96e6e19a58c3c
+_Python3_DEVELOPMENT_MODULE_SIGNATURE:INTERNAL=ac0434b4d60193236414e17e707ed71c
 //Development reason failure
 _Python3_Development_REASON_FAILURE:INTERNAL=
-_Python3_EXECUTABLE:INTERNAL=/root/miniforge3/envs/exo_suit_jazzy_v2/bin/python3
+_Python3_EXECUTABLE:INTERNAL=/opt/conda/envs/exo_suit_jazzy_v2_2/bin/python3
 //Path to a file.
-_Python3_INCLUDE_DIR:INTERNAL=/root/miniforge3/envs/exo_suit_jazzy_v2/include/python3.12
+_Python3_INCLUDE_DIR:INTERNAL=/opt/conda/envs/exo_suit_jazzy_v2_2/include/python3.12
 //Python3 Properties
-_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;12;12;64;;cpython-312-aarch64-linux-gnu;abi3;/root/miniforge3/envs/exo_suit_jazzy_v2/lib/python3.12;/root/miniforge3/envs/exo_suit_jazzy_v2/lib/python3.12;/root/miniforge3/envs/exo_suit_jazzy_v2/lib/python3.12/site-packages;/root/miniforge3/envs/exo_suit_jazzy_v2/lib/python3.12/site-packages
-_Python3_INTERPRETER_SIGNATURE:INTERNAL=d83a08e6ae41dc30917b672398535691
+_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;12;12;64;;cpython-312-aarch64-linux-gnu;abi3;/opt/conda/envs/exo_suit_jazzy_v2_2/lib/python3.12;/opt/conda/envs/exo_suit_jazzy_v2_2/lib/python3.12;/opt/conda/envs/exo_suit_jazzy_v2_2/lib/python3.12/site-packages;/opt/conda/envs/exo_suit_jazzy_v2_2/lib/python3.12/site-packages
+_Python3_INTERPRETER_SIGNATURE:INTERNAL=19f0e085c6e06f3047b1ae92af52340d
+//Interpreter reason failure
+_Python3_Interpreter_REASON_FAILURE:INTERNAL=
 //Path to a library.
-_Python3_LIBRARY_RELEASE:INTERNAL=/root/miniforge3/envs/exo_suit_jazzy_v2/lib/libpython3.12.so
-_Python3_NUMPY_SIGNATURE:INTERNAL=c117649d89bc7cec9e5bc5e41c913c81
+_Python3_LIBRARY_RELEASE:INTERNAL=/opt/conda/envs/exo_suit_jazzy_v2_2/lib/libpython3.12.so
+_Python3_NUMPY_SIGNATURE:INTERNAL=066e9a941cde4ba0acce47ecc2b8c24f
 //Path to a file.
-_Python3_NumPy_INCLUDE_DIR:INTERNAL=/root/miniforge3/envs/exo_suit_jazzy_v2/lib/python3.12/site-packages/numpy/_core/include
+_Python3_NumPy_INCLUDE_DIR:INTERNAL=/opt/conda/envs/exo_suit_jazzy_v2_2/lib/python3.12/site-packages/numpy/_core/include
 //Index for unique symlink install targets
 __AMENT_CMAKE_SYMLINK_INSTALL_TARGETS_INDEX:INTERNAL=3
 

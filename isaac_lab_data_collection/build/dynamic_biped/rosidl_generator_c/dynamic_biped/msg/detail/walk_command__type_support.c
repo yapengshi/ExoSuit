@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
+#include "dynamic_biped/msg/detail/walk_command__type_support.h"
 #include "dynamic_biped/msg/detail/walk_command__functions.h"
 #include "dynamic_biped/msg/detail/walk_command__struct.h"
-#include "dynamic_biped/msg/detail/walk_command__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

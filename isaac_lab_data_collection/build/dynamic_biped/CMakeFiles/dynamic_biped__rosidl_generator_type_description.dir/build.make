@@ -116,7 +116,7 @@ rosidl_generator_type_description/dynamic_biped/msg/ArmHandPose.json: rosidl_ada
 rosidl_generator_type_description/dynamic_biped/msg/ArmHandPose.json: rosidl_adapter/dynamic_biped/srv/SrvClearPositionCMD.idl
 rosidl_generator_type_description/dynamic_biped/msg/ArmHandPose.json: rosidl_adapter/dynamic_biped/srv/SrvManiInst.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
-	/root/miniforge3/envs/exo_suit_jazzy_v2/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_generator_type_description__arguments.json
+	/opt/conda/envs/exo_suit_jazzy_v2_2/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_generator_type_description__arguments.json
 
 rosidl_generator_type_description/dynamic_biped/msg/ECJointMotordata.json: rosidl_generator_type_description/dynamic_biped/msg/ArmHandPose.json
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/dynamic_biped/msg/ECJointMotordata.json

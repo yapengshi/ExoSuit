@@ -1,0 +1,841 @@
+[0.027s] Invoking command in '/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(exo_suit_jazzy_v2_2) /usr/bin/cmake /root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped
+[0.370s] -- The C compiler identification is GNU 13.3.0
+[0.671s] -- The CXX compiler identification is GNU 13.3.0
+[0.725s] -- Detecting C compiler ABI info
+[1.027s] -- Detecting C compiler ABI info - done
+[1.043s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.043s] -- Detecting C compile features
+[1.044s] -- Detecting C compile features - done
+[1.076s] -- Detecting CXX compiler ABI info
+[1.364s] -- Detecting CXX compiler ABI info - done
+[1.380s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.380s] -- Detecting CXX compile features
+[1.381s] -- Detecting CXX compile features - done
+[1.386s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.705s] -- Found Python3: /opt/conda/envs/exo_suit_jazzy_v2_2/bin/python3 (found version "3.12.12") found components: Interpreter 
+[1.939s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.139s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.150s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.244s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.329s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.336s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.395s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[4.059s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[5.209s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.592s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.597s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[6.888s] -- Found PythonExtra: /opt/conda/envs/exo_suit_jazzy_v2_2/bin/python3  
+[7.947s] -- Found Python3: /opt/conda/envs/exo_suit_jazzy_v2_2/bin/python3 (found version "3.12.12") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[8.087s] -- Configuring done (8.0s)
+[8.254s] -- Generating done (0.1s)
+[8.281s] -- Build files have been written to: /root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped
+[8.314s] Invoked command in '/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(exo_suit_jazzy_v2_2) /usr/bin/cmake /root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped
+[8.316s] Invoking command in '/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(exo_suit_jazzy_v2_2) /usr/bin/cmake --build /root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped -- -j8 -l8
+[8.496s] [  0%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[8.507s] [  0%] Built target ament_cmake_python_symlink_dynamic_biped
+[8.903s] running egg_info
+[8.926s] creating dynamic_biped.egg-info
+[8.926s] writing dynamic_biped.egg-info/PKG-INFO
+[8.927s] writing dependency_links to dynamic_biped.egg-info/dependency_links.txt
+[8.927s] writing top-level names to dynamic_biped.egg-info/top_level.txt
+[8.928s] writing manifest file 'dynamic_biped.egg-info/SOURCES.txt'
+[8.994s] reading manifest file 'dynamic_biped.egg-info/SOURCES.txt'
+[8.995s] writing manifest file 'dynamic_biped.egg-info/SOURCES.txt'
+[9.112s] [  0%] Built target ament_cmake_python_build_dynamic_biped_egg
+[9.502s] [  0%] Built target dynamic_biped__rosidl_generator_type_description
+[9.534s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[9.563s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[13.505s] [  1%] Built target dynamic_biped__cpp
+[14.527s] [  2%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/hand_rotation_eular__description.c.o[0m
+[14.527s] [  2%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/ec_joint_motordata__type_support.c.o[0m
+[14.527s] [  2%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/arm_hand_pose__functions.c.o[0m
+[14.527s] [  2%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/arm_hand_pose__type_support.c.o[0m
+[14.546s] [  2%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/ec_joint_motordata__description.c.o[0m
+[14.547s] [  2%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/arm_hand_pose__description.c.o[0m
+[14.547s] [  3%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/ec_joint_motordata__functions.c.o[0m
+[14.550s] [  4%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/hand_rotation_eular__functions.c.o[0m
+[14.609s] [  5%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/hand_rotation__description.c.o[0m
+[14.618s] [  5%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/hand_rotation__functions.c.o[0m
+[14.622s] [  5%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/hand_rotation_eular__type_support.c.o[0m
+[14.640s] [  5%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/hand_rotation__type_support.c.o[0m
+[14.683s] [  6%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/quaternion_array__description.c.o[0m
+[14.697s] [  6%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/quaternion_array__functions.c.o[0m
+[14.706s] [  6%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/record_arm_hand_pose__functions.c.o[0m
+[14.711s] [  7%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/record_arm_hand_pose__type_support.c.o[0m
+[14.719s] [  8%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/quaternion_array__type_support.c.o[0m
+[14.723s] [  8%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/record_arm_hand_pose__description.c.o[0m
+[14.737s] [  8%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/robot_arm_info__description.c.o[0m
+[14.758s] [  9%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/robot_arm_info__functions.c.o[0m
+[14.763s] [  9%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/robot_arm_info__type_support.c.o[0m
+[14.783s] [ 10%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/robot_arm_qvvd__functions.c.o[0m
+[14.796s] [ 10%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/robot_arm_qvvd__description.c.o[0m
+[14.824s] [ 11%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/robot_hand_eff__description.c.o[0m
+[14.836s] [ 11%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/robot_arm_qvvd__type_support.c.o[0m
+[14.851s] [ 11%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/robot_hand_eff__functions.c.o[0m
+[14.859s] [ 12%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/robot_hand_position__description.c.o[0m
+[14.874s] [ 12%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/robot_hand_eff__type_support.c.o[0m
+[14.877s] [ 12%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/robot_hand_position__functions.c.o[0m
+[14.901s] [ 12%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/robot_hand_position__type_support.c.o[0m
+[14.938s] [ 13%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/robot_head_motion_data__description.c.o[0m
+[14.959s] [ 13%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/robot_head_motion_data__functions.c.o[0m
+[14.959s] [ 14%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/robot_head_motion_data__type_support.c.o[0m
+[14.967s] [ 14%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/robot_phase__description.c.o[0m
+[14.998s] [ 14%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/robot_phase__functions.c.o[0m
+[15.009s] [ 14%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/robot_qv_tau__description.c.o[0m
+[15.013s] [ 15%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/robot_qv_tau__type_support.c.o[0m
+[15.014s] [ 15%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/robot_qv_tau__functions.c.o[0m
+[15.014s] [ 16%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/robot_phase__type_support.c.o[0m
+[15.096s] [ 16%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/robot_torso_state__description.c.o[0m
+[15.097s] [ 17%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/robot_torso_state__functions.c.o[0m
+[15.098s] [ 17%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/robot_torso_state__type_support.c.o[0m
+[15.117s] [ 17%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/walk_command__type_support.c.o[0m
+[15.130s] [ 18%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/walk_command__description.c.o[0m
+[15.130s] [ 19%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/srv/detail/change_ambac_ctrl_mode__description.c.o[0m
+[15.133s] [ 19%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/msg/detail/walk_command__functions.c.o[0m
+[15.142s] [ 19%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/srv/detail/change_ambac_ctrl_mode__functions.c.o[0m
+[15.176s] [ 20%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/srv/detail/change_ambac_ctrl_mode__type_support.c.o[0m
+[15.182s] [ 20%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/srv/detail/change_arm_ctrl_mode__description.c.o[0m
+[15.222s] [ 20%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/srv/detail/change_arm_ctrl_mode__functions.c.o[0m
+[15.249s] [ 20%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/srv/detail/control_end_hand__description.c.o[0m
+[15.255s] [ 21%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/srv/detail/change_arm_ctrl_mode__type_support.c.o[0m
+[15.280s] [ 21%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/srv/detail/control_end_hand__type_support.c.o[0m
+[15.295s] [ 22%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/srv/detail/control_end_hand__functions.c.o[0m
+[15.320s] [ 22%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/srv/detail/srv_change_ctl_mode__description.c.o[0m
+[15.320s] [ 23%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/srv/detail/srv_change_ctl_mode__functions.c.o[0m
+[15.330s] [ 23%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/srv/detail/srv_change_ctl_mode__type_support.c.o[0m
+[15.331s] [ 24%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/srv/detail/srv_change_joller__description.c.o[0m
+[15.348s] [ 24%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/srv/detail/srv_change_joller__functions.c.o[0m
+[15.351s] [ 24%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/srv/detail/srv_change_joller__type_support.c.o[0m
+[15.380s] [ 25%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/srv/detail/srv_change_phases__description.c.o[0m
+[15.441s] [ 25%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/srv/detail/srv_change_phases__functions.c.o[0m
+[15.445s] [ 25%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/srv/detail/srv_change_phases__type_support.c.o[0m
+[15.474s] [ 26%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/srv/detail/srv_clear_position_cmd__description.c.o[0m
+[15.479s] [ 26%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/srv/detail/srv_clear_position_cmd__functions.c.o[0m
+[15.491s] [ 27%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/srv/detail/srv_clear_position_cmd__type_support.c.o[0m
+[15.499s] [ 27%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/srv/detail/srv_mani_inst__description.c.o[0m
+[15.509s] [ 28%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/srv/detail/srv_mani_inst__type_support.c.o[0m
+[15.528s] [ 28%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_biped/srv/detail/srv_mani_inst__functions.c.o[0m
+[15.690s] [ 28%] [32m[1mLinking C shared library libdynamic_biped__rosidl_generator_c.so[0m
+[15.815s] [ 28%] Built target dynamic_biped__rosidl_generator_c
+[15.841s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[15.842s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[15.842s] [ 29%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[15.849s] [ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[15.867s] [ 30%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[15.868s] [ 30%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[18.058s] [ 30%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamic_biped/msg/ec_joint_motordata__type_support.cpp.o[0m
+[18.058s] [ 31%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamic_biped/msg/hand_rotation_eular__type_support.cpp.o[0m
+[18.058s] [ 32%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamic_biped/msg/arm_hand_pose__type_support.cpp.o[0m
+[18.729s] [ 32%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamic_biped/msg/hand_rotation__type_support.cpp.o[0m
+[19.236s] [ 32%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamic_biped/msg/quaternion_array__type_support.cpp.o[0m
+[19.464s] [ 33%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamic_biped/msg/record_arm_hand_pose__type_support.cpp.o[0m
+[19.466s] [ 34%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamic_biped/msg/arm_hand_pose__type_support.cpp.o[0m
+[19.573s] [ 34%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamic_biped/msg/detail/arm_hand_pose__type_support.cpp.o[0m
+[19.695s] [ 34%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamic_biped/msg/ec_joint_motordata__type_support.cpp.o[0m
+[19.738s] [ 34%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamic_biped/msg/detail/ec_joint_motordata__type_support.cpp.o[0m
+[19.871s] [ 35%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamic_biped/msg/hand_rotation_eular__type_support.cpp.o[0m
+[19.879s] [ 35%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamic_biped/msg/robot_arm_info__type_support.cpp.o[0m
+[19.970s] [ 35%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamic_biped/msg/hand_rotation__type_support.cpp.o[0m
+[20.085s] [ 35%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamic_biped/msg/robot_arm_qvvd__type_support.cpp.o[0m
+[20.104s] [ 35%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamic_biped/msg/quaternion_array__type_support.cpp.o[0m
+[20.340s] [ 36%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamic_biped/msg/record_arm_hand_pose__type_support.cpp.o[0m
+[20.349s] [ 37%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamic_biped/msg/detail/hand_rotation_eular__type_support.cpp.o[0m
+[20.469s] [ 37%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamic_biped/msg/detail/hand_rotation__type_support.cpp.o[0m
+[20.579s] [ 37%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamic_biped/msg/robot_arm_info__type_support.cpp.o[0m
+[20.691s] [ 38%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamic_biped/msg/robot_arm_qvvd__type_support.cpp.o[0m
+[20.767s] [ 39%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamic_biped/msg/robot_hand_eff__type_support.cpp.o[0m
+[20.789s] [ 39%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamic_biped/msg/robot_hand_eff__type_support.cpp.o[0m
+[21.025s] [ 39%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamic_biped/msg/robot_hand_position__type_support.cpp.o[0m
+[21.058s] [ 39%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamic_biped/msg/robot_hand_position__type_support.cpp.o[0m
+[21.084s] [ 40%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamic_biped/msg/detail/quaternion_array__type_support.cpp.o[0m
+[21.138s] [ 40%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamic_biped/msg/detail/record_arm_hand_pose__type_support.cpp.o[0m
+[21.247s] [ 41%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamic_biped/msg/robot_head_motion_data__type_support.cpp.o[0m
+[21.305s] [ 41%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamic_biped/msg/detail/robot_arm_info__type_support.cpp.o[0m
+[21.472s] [ 41%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamic_biped/msg/robot_phase__type_support.cpp.o[0m
+[21.678s] [ 42%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamic_biped/msg/robot_qv_tau__type_support.cpp.o[0m
+[21.758s] [ 43%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamic_biped/msg/detail/robot_arm_qvvd__type_support.cpp.o[0m
+[21.769s] [ 44%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamic_biped/msg/robot_head_motion_data__type_support.cpp.o[0m
+[21.807s] [ 44%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamic_biped/msg/robot_torso_state__type_support.cpp.o[0m
+[21.871s] [ 44%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamic_biped/msg/detail/robot_hand_eff__type_support.cpp.o[0m
+[21.911s] [ 44%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamic_biped/msg/detail/arm_hand_pose__type_support.c.o[0m
+[21.943s] [ 44%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamic_biped/msg/walk_command__type_support.cpp.o[0m
+[22.120s] [ 45%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamic_biped/msg/detail/arm_hand_pose__type_support_c.cpp.o[0m
+[22.152s] [ 46%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamic_biped/msg/detail/ec_joint_motordata__type_support.c.o[0m
+[22.179s] [ 47%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamic_biped/srv/change_ambac_ctrl_mode__type_support.cpp.o[0m
+[22.360s] [ 47%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamic_biped/msg/detail/hand_rotation_eular__type_support.c.o[0m
+[22.395s] [ 47%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamic_biped/srv/change_arm_ctrl_mode__type_support.cpp.o[0m
+[22.406s] [ 48%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamic_biped/msg/detail/robot_hand_position__type_support.cpp.o[0m
+[22.410s] [ 48%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamic_biped/msg/detail/robot_head_motion_data__type_support.cpp.o[0m
+[22.593s] [ 48%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamic_biped/msg/detail/hand_rotation__type_support.c.o[0m
+[22.631s] [ 48%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamic_biped/msg/robot_phase__type_support.cpp.o[0m
+[22.641s] [ 49%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamic_biped/srv/control_end_hand__type_support.cpp.o[0m
+[22.822s] [ 50%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamic_biped/msg/detail/quaternion_array__type_support.c.o[0m
+[22.873s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamic_biped/srv/srv_change_ctl_mode__type_support.cpp.o[0m
+[22.960s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamic_biped/srv/srv_change_joller__type_support.cpp.o[0m
+[22.964s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamic_biped/msg/detail/ec_joint_motordata__type_support_c.cpp.o[0m
+[23.004s] [ 50%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamic_biped/msg/detail/record_arm_hand_pose__type_support.c.o[0m
+[23.009s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamic_biped/msg/detail/robot_phase__type_support.cpp.o[0m
+[23.089s] [ 51%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamic_biped/srv/srv_change_phases__type_support.cpp.o[0m
+[23.153s] [ 52%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamic_biped/msg/detail/robot_qv_tau__type_support.cpp.o[0m
+[23.204s] [ 53%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamic_biped/msg/detail/robot_arm_info__type_support.c.o[0m
+[23.347s] [ 53%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamic_biped/srv/srv_clear_position_cmd__type_support.cpp.o[0m
+[23.417s] [ 53%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamic_biped/msg/robot_qv_tau__type_support.cpp.o[0m
+[23.474s] [ 53%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamic_biped/msg/detail/robot_arm_qvvd__type_support.c.o[0m
+[23.520s] [ 53%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamic_biped/msg/detail/robot_torso_state__type_support.cpp.o[0m
+[23.553s] [ 54%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamic_biped/msg/detail/walk_command__type_support.cpp.o[0m
+[23.605s] [ 55%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamic_biped/srv/srv_mani_inst__type_support.cpp.o[0m
+[23.716s] [ 55%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamic_biped/msg/detail/robot_hand_eff__type_support.c.o[0m
+[23.761s] [ 55%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamic_biped/srv/detail/change_ambac_ctrl_mode__type_support.cpp.o[0m
+[23.766s] [ 55%] [32m[1mLinking CXX shared library libdynamic_biped__rosidl_typesupport_c.so[0m
+[23.785s] [ 55%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamic_biped/msg/detail/hand_rotation_eular__type_support_c.cpp.o[0m
+[23.935s] [ 56%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamic_biped/msg/detail/robot_hand_position__type_support.c.o[0m
+[24.003s] [ 56%] Built target dynamic_biped__rosidl_typesupport_c
+[24.044s] [ 56%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamic_biped/srv/detail/change_arm_ctrl_mode__type_support.cpp.o[0m
+[24.096s] [ 57%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamic_biped/srv/detail/control_end_hand__type_support.cpp.o[0m
+[24.111s] [ 57%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamic_biped/msg/detail/robot_head_motion_data__type_support.c.o[0m
+[24.136s] [ 58%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamic_biped/msg/robot_torso_state__type_support.cpp.o[0m
+[24.145s] [ 58%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamic_biped/srv/detail/srv_change_ctl_mode__type_support.cpp.o[0m
+[24.324s] [ 59%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamic_biped/msg/detail/robot_phase__type_support.c.o[0m
+[24.432s] [ 59%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamic_biped/msg/detail/dds_fastrtps/arm_hand_pose__type_support.cpp.o[0m
+[24.518s] [ 59%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamic_biped/msg/detail/robot_qv_tau__type_support.c.o[0m
+[24.536s] [ 59%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamic_biped/msg/walk_command__type_support.cpp.o[0m
+[24.683s] [ 60%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamic_biped/msg/detail/hand_rotation__type_support_c.cpp.o[0m
+[24.687s] [ 60%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamic_biped/msg/detail/robot_torso_state__type_support.c.o[0m
+[24.786s] [ 61%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamic_biped/msg/detail/walk_command__type_support.c.o[0m
+[24.799s] [ 62%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamic_biped/msg/detail/dds_fastrtps/ec_joint_motordata__type_support.cpp.o[0m
+[24.849s] [ 63%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamic_biped/srv/detail/srv_change_joller__type_support.cpp.o[0m
+[25.011s] [ 63%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamic_biped/srv/detail/change_ambac_ctrl_mode__type_support.c.o[0m
+[25.278s] [ 64%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamic_biped/srv/detail/change_arm_ctrl_mode__type_support.c.o[0m
+[25.303s] [ 64%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamic_biped/msg/detail/dds_fastrtps/hand_rotation_eular__type_support.cpp.o[0m
+[25.374s] [ 64%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamic_biped/srv/detail/srv_change_phases__type_support.cpp.o[0m
+[25.495s] [ 64%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamic_biped/msg/detail/quaternion_array__type_support_c.cpp.o[0m
+[25.541s] [ 64%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamic_biped/srv/detail/control_end_hand__type_support.c.o[0m
+[25.547s] [ 64%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamic_biped/srv/detail/srv_clear_position_cmd__type_support.cpp.o[0m
+[25.840s] [ 64%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamic_biped/srv/detail/srv_change_ctl_mode__type_support.c.o[0m
+[25.959s] [ 65%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamic_biped/msg/detail/dds_fastrtps/hand_rotation__type_support.cpp.o[0m
+[26.105s] [ 66%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamic_biped/srv/detail/srv_change_joller__type_support.c.o[0m
+[26.137s] [ 67%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamic_biped/srv/detail/srv_mani_inst__type_support.cpp.o[0m
+[26.180s] [ 67%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamic_biped/srv/detail/srv_change_phases__type_support.c.o[0m
+[26.282s] [ 68%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamic_biped/srv/detail/srv_clear_position_cmd__type_support.c.o[0m
+[26.293s] [ 68%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamic_biped/msg/detail/dds_fastrtps/quaternion_array__type_support.cpp.o[0m
+[26.303s] [ 68%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamic_biped/srv/detail/srv_mani_inst__type_support.c.o[0m
+[26.313s] [ 69%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamic_biped/srv/change_ambac_ctrl_mode__type_support.cpp.o[0m
+[26.348s] [ 69%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamic_biped/msg/detail/dds_fastrtps/record_arm_hand_pose__type_support.cpp.o[0m
+[26.535s] [ 70%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamic_biped/msg/detail/dds_fastrtps/robot_arm_info__type_support.cpp.o[0m
+[26.566s] [ 70%] [32m[1mLinking C shared library libdynamic_biped__rosidl_typesupport_introspection_c.so[0m
+[26.668s] [ 70%] Built target dynamic_biped__rosidl_typesupport_introspection_c
+[26.684s] [ 70%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamic_biped/msg/detail/dds_fastrtps/robot_arm_qvvd__type_support.cpp.o[0m
+[26.889s] [ 71%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamic_biped/msg/detail/record_arm_hand_pose__type_support_c.cpp.o[0m
+[27.087s] [ 71%] [32m[1mLinking CXX shared library libdynamic_biped__rosidl_typesupport_introspection_cpp.so[0m
+[27.110s] [ 72%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamic_biped/msg/detail/dds_fastrtps/robot_hand_eff__type_support.cpp.o[0m
+[27.151s] [ 72%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamic_biped/msg/detail/dds_fastrtps/robot_hand_position__type_support.cpp.o[0m
+[27.518s] [ 72%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamic_biped/msg/detail/dds_fastrtps/robot_head_motion_data__type_support.cpp.o[0m
+[27.746s] [ 73%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamic_biped/msg/detail/dds_fastrtps/robot_phase__type_support.cpp.o[0m
+[27.775s] [ 73%] Built target dynamic_biped__rosidl_typesupport_introspection_cpp
+[27.815s] [ 73%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamic_biped/msg/detail/robot_arm_info__type_support_c.cpp.o[0m
+[27.920s] [ 73%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamic_biped/msg/detail/robot_arm_qvvd__type_support_c.cpp.o[0m
+[28.009s] [ 73%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamic_biped/msg/detail/dds_fastrtps/robot_qv_tau__type_support.cpp.o[0m
+[28.089s] [ 73%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamic_biped/srv/change_arm_ctrl_mode__type_support.cpp.o[0m
+[28.438s] [ 74%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamic_biped/msg/detail/dds_fastrtps/robot_torso_state__type_support.cpp.o[0m
+[28.731s] [ 74%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamic_biped/msg/detail/dds_fastrtps/walk_command__type_support.cpp.o[0m
+[28.769s] [ 74%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamic_biped/srv/detail/dds_fastrtps/change_ambac_ctrl_mode__type_support.cpp.o[0m
+[28.790s] [ 75%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamic_biped/msg/detail/robot_hand_eff__type_support_c.cpp.o[0m
+[29.133s] [ 76%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamic_biped/srv/detail/dds_fastrtps/change_arm_ctrl_mode__type_support.cpp.o[0m
+[29.204s] [ 76%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamic_biped/srv/control_end_hand__type_support.cpp.o[0m
+[29.353s] [ 76%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamic_biped/msg/detail/robot_hand_position__type_support_c.cpp.o[0m
+[29.593s] [ 76%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamic_biped/srv/detail/dds_fastrtps/control_end_hand__type_support.cpp.o[0m
+[29.803s] [ 76%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamic_biped/srv/detail/dds_fastrtps/srv_change_ctl_mode__type_support.cpp.o[0m
+[29.966s] [ 77%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamic_biped/srv/srv_change_ctl_mode__type_support.cpp.o[0m
+[30.136s] [ 77%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamic_biped/msg/detail/robot_head_motion_data__type_support_c.cpp.o[0m
+[30.179s] [ 78%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamic_biped/srv/detail/dds_fastrtps/srv_change_joller__type_support.cpp.o[0m
+[30.851s] [ 78%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamic_biped/srv/detail/dds_fastrtps/srv_change_phases__type_support.cpp.o[0m
+[30.944s] [ 79%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamic_biped/msg/detail/robot_phase__type_support_c.cpp.o[0m
+[31.007s] [ 79%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamic_biped/msg/detail/robot_qv_tau__type_support_c.cpp.o[0m
+[31.038s] [ 80%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamic_biped/srv/detail/dds_fastrtps/srv_clear_position_cmd__type_support.cpp.o[0m
+[31.248s] [ 80%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamic_biped/srv/detail/dds_fastrtps/srv_mani_inst__type_support.cpp.o[0m
+[31.354s] [ 81%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamic_biped/msg/detail/robot_torso_state__type_support_c.cpp.o[0m
+[31.680s] [ 81%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamic_biped/msg/detail/walk_command__type_support_c.cpp.o[0m
+[31.842s] [ 81%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamic_biped/srv/detail/change_ambac_ctrl_mode__type_support_c.cpp.o[0m
+[32.025s] [ 82%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamic_biped/srv/detail/change_arm_ctrl_mode__type_support_c.cpp.o[0m
+[32.052s] [ 82%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamic_biped/srv/srv_change_joller__type_support.cpp.o[0m
+[32.172s] [ 83%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamic_biped/srv/srv_change_phases__type_support.cpp.o[0m
+[32.417s] [ 83%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamic_biped/srv/detail/control_end_hand__type_support_c.cpp.o[0m
+[32.490s] [ 84%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamic_biped/srv/detail/srv_change_ctl_mode__type_support_c.cpp.o[0m
+[32.652s] [ 84%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamic_biped/srv/detail/srv_change_joller__type_support_c.cpp.o[0m
+[32.850s] [ 84%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamic_biped/srv/srv_clear_position_cmd__type_support.cpp.o[0m
+[33.141s] [ 84%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamic_biped/srv/detail/srv_change_phases__type_support_c.cpp.o[0m
+[33.414s] [ 85%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamic_biped/srv/detail/srv_clear_position_cmd__type_support_c.cpp.o[0m
+[33.427s] [ 85%] [32m[1mLinking CXX shared library libdynamic_biped__rosidl_typesupport_fastrtps_cpp.so[0m
+[33.512s] [ 85%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamic_biped/srv/detail/srv_mani_inst__type_support_c.cpp.o[0m
+[33.571s] [ 85%] [32mBuilding CXX object CMakeFiles/dynamic_biped__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamic_biped/srv/srv_mani_inst__type_support.cpp.o[0m
+[34.032s] [ 85%] Built target dynamic_biped__rosidl_typesupport_fastrtps_cpp
+[34.333s] [ 86%] [32m[1mLinking CXX shared library libdynamic_biped__rosidl_typesupport_fastrtps_c.so[0m
+[34.488s] [ 87%] [32m[1mLinking CXX shared library libdynamic_biped__rosidl_typesupport_cpp.so[0m
+[34.509s] [ 87%] Built target dynamic_biped__rosidl_typesupport_fastrtps_c
+[34.654s] [ 87%] Built target dynamic_biped__rosidl_typesupport_cpp
+[34.683s] [ 87%] Built target dynamic_biped
+[34.750s] [ 87%] [34m[1mGenerating Python code for ROS interfaces[0m
+[40.940s] [ 87%] Built target dynamic_biped__py
+[40.993s] [ 88%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_py.dir/rosidl_generator_py/dynamic_biped/msg/_hand_rotation_eular_s.c.o[0m
+[40.993s] [ 88%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_py.dir/rosidl_generator_py/dynamic_biped/msg/_quaternion_array_s.c.o[0m
+[40.994s] [ 88%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_py.dir/rosidl_generator_py/dynamic_biped/msg/_record_arm_hand_pose_s.c.o[0m
+[40.994s] [ 88%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_py.dir/rosidl_generator_py/dynamic_biped/msg/_robot_arm_info_s.c.o[0m
+[41.014s] [ 90%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_py.dir/rosidl_generator_py/dynamic_biped/msg/_arm_hand_pose_s.c.o[0m
+[41.014s] [ 90%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_py.dir/rosidl_generator_py/dynamic_biped/msg/_hand_rotation_s.c.o[0m
+[41.014s] [ 90%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_py.dir/rosidl_generator_py/dynamic_biped/msg/_ec_joint_motordata_s.c.o[0m
+[41.014s] [ 90%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_py.dir/rosidl_generator_py/dynamic_biped/msg/_robot_arm_qvvd_s.c.o[0m
+[41.279s] [ 91%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_py.dir/rosidl_generator_py/dynamic_biped/msg/_robot_hand_eff_s.c.o[0m
+[41.282s] [ 91%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_py.dir/rosidl_generator_py/dynamic_biped/msg/_robot_hand_position_s.c.o[0m
+[41.315s] [ 91%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_py.dir/rosidl_generator_py/dynamic_biped/msg/_robot_phase_s.c.o[0m
+[41.316s] [ 92%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_py.dir/rosidl_generator_py/dynamic_biped/msg/_robot_head_motion_data_s.c.o[0m
+[41.457s] [ 92%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_py.dir/rosidl_generator_py/dynamic_biped/msg/_robot_qv_tau_s.c.o[0m
+[41.494s] [ 93%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_py.dir/rosidl_generator_py/dynamic_biped/msg/_robot_torso_state_s.c.o[0m
+[41.537s] [ 93%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_py.dir/rosidl_generator_py/dynamic_biped/msg/_walk_command_s.c.o[0m
+[41.550s] [ 94%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_py.dir/rosidl_generator_py/dynamic_biped/srv/_change_ambac_ctrl_mode_s.c.o[0m
+[41.770s] [ 94%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_py.dir/rosidl_generator_py/dynamic_biped/srv/_control_end_hand_s.c.o[0m
+[41.779s] [ 94%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_py.dir/rosidl_generator_py/dynamic_biped/srv/_change_arm_ctrl_mode_s.c.o[0m
+[41.800s] [ 95%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_py.dir/rosidl_generator_py/dynamic_biped/srv/_srv_change_ctl_mode_s.c.o[0m
+[41.830s] [ 95%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_py.dir/rosidl_generator_py/dynamic_biped/srv/_srv_change_joller_s.c.o[0m
+[41.833s] [ 96%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_py.dir/rosidl_generator_py/dynamic_biped/srv/_srv_change_phases_s.c.o[0m
+[41.920s] [ 96%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_py.dir/rosidl_generator_py/dynamic_biped/srv/_srv_clear_position_cmd_s.c.o[0m
+[41.946s] [ 96%] [32mBuilding C object CMakeFiles/dynamic_biped__rosidl_generator_py.dir/rosidl_generator_py/dynamic_biped/srv/_srv_mani_inst_s.c.o[0m
+[42.314s] [ 97%] [32m[1mLinking C shared library libdynamic_biped__rosidl_generator_py.so[0m
+[42.468s] [ 97%] Built target dynamic_biped__rosidl_generator_py
+[42.511s] [ 98%] [32mBuilding C object CMakeFiles/dynamic_biped_s__rosidl_typesupport_c.dir/rosidl_generator_py/dynamic_biped/_dynamic_biped_s.ep.rosidl_typesupport_c.c.o[0m
+[42.527s] [ 98%] [32mBuilding C object CMakeFiles/dynamic_biped_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/dynamic_biped/_dynamic_biped_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[42.555s] [ 98%] [32mBuilding C object CMakeFiles/dynamic_biped_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/dynamic_biped/_dynamic_biped_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[42.953s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/dynamic_biped/dynamic_biped_s__rosidl_typesupport_c.so[0m
+[42.962s] [ 99%] [32m[1mLinking C shared module rosidl_generator_py/dynamic_biped/dynamic_biped_s__rosidl_typesupport_introspection_c.so[0m
+[43.035s] [100%] [32m[1mLinking C shared module rosidl_generator_py/dynamic_biped/dynamic_biped_s__rosidl_typesupport_fastrtps_c.so[0m
+[43.061s] [100%] Built target dynamic_biped_s__rosidl_typesupport_c
+[43.068s] [100%] Built target dynamic_biped_s__rosidl_typesupport_introspection_c
+[43.138s] [100%] Built target dynamic_biped_s__rosidl_typesupport_fastrtps_c
+[43.165s] Invoked command in '/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(exo_suit_jazzy_v2_2) /usr/bin/cmake --build /root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped -- -j8 -l8
+[43.168s] Invoking command in '/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(exo_suit_jazzy_v2_2) /usr/bin/cmake --install /root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped
+[43.198s] -- Install configuration: ""
+[43.199s] -- Execute custom install script
+[43.199s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/ament_index/resource_index/rosidl_interfaces/dynamic_biped
+[43.230s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/ArmHandPose.json
+[43.253s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/ECJointMotordata.json
+[43.270s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/HandRotationEular.json
+[43.301s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/HandRotation.json
+[43.333s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/QuaternionArray.json
+[43.365s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/RecordArmHandPose.json
+[43.395s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/RobotArmInfo.json
+[43.426s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/RobotArmQVVD.json
+[43.456s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/RobotHandEff.json
+[43.473s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/RobotHandPosition.json
+[43.507s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/RobotHeadMotionData.json
+[43.524s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/RobotPhase.json
+[43.554s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/RobotQVTau.json
+[43.586s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/RobotTorsoState.json
+[43.617s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/WalkCommand.json
+[43.634s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/srv/ChangeAMBACCtrlMode.json
+[43.665s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/srv/ChangeArmCtrlMode.json
+[43.683s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/srv/ControlEndHand.json
+[43.713s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/srv/SrvChangeCtlMode.json
+[43.730s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/srv/SrvChangeJoller.json
+[43.747s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/srv/SrvChangePhases.json
+[43.777s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/srv/SrvClearPositionCMD.json
+[43.809s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/srv/SrvManiInst.json
+[43.830s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/arm_hand_pose.h
+[43.847s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/arm_hand_pose__functions.h
+[43.864s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/arm_hand_pose__struct.h
+[43.896s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/arm_hand_pose__type_support.h
+[43.927s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/ec_joint_motordata__functions.h
+[43.943s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/ec_joint_motordata__struct.h
+[43.960s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/ec_joint_motordata__type_support.h
+[43.990s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/hand_rotation__functions.h
+[44.007s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/hand_rotation__struct.h
+[44.037s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/hand_rotation__type_support.h
+[44.054s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/hand_rotation_eular__functions.h
+[44.072s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/hand_rotation_eular__struct.h
+[44.102s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/hand_rotation_eular__type_support.h
+[44.134s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/quaternion_array__functions.h
+[44.152s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/quaternion_array__struct.h
+[44.182s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/quaternion_array__type_support.h
+[44.199s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/record_arm_hand_pose__functions.h
+[44.234s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/record_arm_hand_pose__struct.h
+[44.250s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/record_arm_hand_pose__type_support.h
+[44.281s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_arm_info__functions.h
+[44.298s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_arm_info__struct.h
+[44.315s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_arm_info__type_support.h
+[44.332s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_arm_qvvd__functions.h
+[44.364s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_arm_qvvd__struct.h
+[44.395s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_arm_qvvd__type_support.h
+[44.417s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_hand_eff__functions.h
+[44.448s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_hand_eff__struct.h
+[44.478s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_hand_eff__type_support.h
+[44.509s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_hand_position__functions.h
+[44.540s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_hand_position__struct.h
+[44.557s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_hand_position__type_support.h
+[44.574s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_head_motion_data__functions.h
+[44.592s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_head_motion_data__struct.h
+[44.623s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_head_motion_data__type_support.h
+[44.639s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_phase__functions.h
+[44.669s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_phase__struct.h
+[44.687s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_phase__type_support.h
+[44.717s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_qv_tau__functions.h
+[44.749s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_qv_tau__struct.h
+[44.766s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_qv_tau__type_support.h
+[44.783s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_torso_state__functions.h
+[44.800s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_torso_state__struct.h
+[44.818s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_torso_state__type_support.h
+[44.835s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/walk_command__functions.h
+[44.852s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/walk_command__struct.h
+[44.890s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/walk_command__type_support.h
+[44.928s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/ec_joint_motordata.h
+[44.965s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/hand_rotation.h
+[44.982s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/hand_rotation_eular.h
+[45.022s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/quaternion_array.h
+[45.040s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/record_arm_hand_pose.h
+[45.072s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/robot_arm_info.h
+[45.089s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/robot_arm_qvvd.h
+[45.107s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/robot_hand_eff.h
+[45.124s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/robot_hand_position.h
+[45.153s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/robot_head_motion_data.h
+[45.185s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/robot_phase.h
+[45.202s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/robot_qv_tau.h
+[45.219s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/robot_torso_state.h
+[45.249s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/rosidl_generator_c__visibility_control.h
+[45.281s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/walk_command.h
+[45.299s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/change_ambac_ctrl_mode.h
+[45.315s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/change_arm_ctrl_mode.h
+[45.332s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/control_end_hand.h
+[45.362s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/change_ambac_ctrl_mode__functions.h
+[45.379s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/change_ambac_ctrl_mode__struct.h
+[45.411s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/change_ambac_ctrl_mode__type_support.h
+[45.427s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/change_arm_ctrl_mode__functions.h
+[45.458s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/change_arm_ctrl_mode__struct.h
+[45.489s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/change_arm_ctrl_mode__type_support.h
+[45.507s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/control_end_hand__functions.h
+[45.538s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/control_end_hand__struct.h
+[45.569s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/control_end_hand__type_support.h
+[45.587s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_change_ctl_mode__functions.h
+[45.617s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_change_ctl_mode__struct.h
+[45.634s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_change_ctl_mode__type_support.h
+[45.651s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_change_joller__functions.h
+[45.683s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_change_joller__struct.h
+[45.714s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_change_joller__type_support.h
+[45.731s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_change_phases__functions.h
+[45.761s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_change_phases__struct.h
+[45.778s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_change_phases__type_support.h
+[45.810s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_clear_position_cmd__functions.h
+[45.840s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_clear_position_cmd__struct.h
+[45.869s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_clear_position_cmd__type_support.h
+[45.901s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_mani_inst__functions.h
+[45.932s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_mani_inst__struct.h
+[45.964s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_mani_inst__type_support.h
+[45.995s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/srv_change_ctl_mode.h
+[46.026s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/srv_change_joller.h
+[46.056s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/srv_change_phases.h
+[46.088s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/srv_clear_position_cmd.h
+[46.126s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/srv_mani_inst.h
+[46.166s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/environment/library_path.sh
+[46.184s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/environment/library_path.dsv
+[46.224s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/arm_hand_pose__rosidl_typesupport_fastrtps_c.h
+[46.263s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/ec_joint_motordata__rosidl_typesupport_fastrtps_c.h
+[46.301s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/hand_rotation__rosidl_typesupport_fastrtps_c.h
+[46.330s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/hand_rotation_eular__rosidl_typesupport_fastrtps_c.h
+[46.361s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/quaternion_array__rosidl_typesupport_fastrtps_c.h
+[46.393s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/record_arm_hand_pose__rosidl_typesupport_fastrtps_c.h
+[46.424s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_arm_info__rosidl_typesupport_fastrtps_c.h
+[46.453s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_arm_qvvd__rosidl_typesupport_fastrtps_c.h
+[46.485s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_hand_eff__rosidl_typesupport_fastrtps_c.h
+[46.516s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_hand_position__rosidl_typesupport_fastrtps_c.h
+[46.546s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_head_motion_data__rosidl_typesupport_fastrtps_c.h
+[46.576s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_phase__rosidl_typesupport_fastrtps_c.h
+[46.606s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_qv_tau__rosidl_typesupport_fastrtps_c.h
+[46.637s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_torso_state__rosidl_typesupport_fastrtps_c.h
+[46.668s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/walk_command__rosidl_typesupport_fastrtps_c.h
+[46.699s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[46.716s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/change_ambac_ctrl_mode__rosidl_typesupport_fastrtps_c.h
+[46.748s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/change_arm_ctrl_mode__rosidl_typesupport_fastrtps_c.h
+[46.765s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/control_end_hand__rosidl_typesupport_fastrtps_c.h
+[46.782s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_change_ctl_mode__rosidl_typesupport_fastrtps_c.h
+[46.813s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_change_joller__rosidl_typesupport_fastrtps_c.h
+[46.844s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_change_phases__rosidl_typesupport_fastrtps_c.h
+[46.876s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_clear_position_cmd__rosidl_typesupport_fastrtps_c.h
+[46.908s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_mani_inst__rosidl_typesupport_fastrtps_c.h
+[46.939s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/arm_hand_pose__rosidl_typesupport_introspection_c.h
+[46.969s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/ec_joint_motordata__rosidl_typesupport_introspection_c.h
+[47.002s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/hand_rotation__rosidl_typesupport_introspection_c.h
+[47.032s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/hand_rotation_eular__rosidl_typesupport_introspection_c.h
+[47.067s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/quaternion_array__rosidl_typesupport_introspection_c.h
+[47.106s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/record_arm_hand_pose__rosidl_typesupport_introspection_c.h
+[47.136s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_arm_info__rosidl_typesupport_introspection_c.h
+[47.175s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_arm_qvvd__rosidl_typesupport_introspection_c.h
+[47.213s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_hand_eff__rosidl_typesupport_introspection_c.h
+[47.244s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_hand_position__rosidl_typesupport_introspection_c.h
+[47.282s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_head_motion_data__rosidl_typesupport_introspection_c.h
+[47.320s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_phase__rosidl_typesupport_introspection_c.h
+[47.352s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_qv_tau__rosidl_typesupport_introspection_c.h
+[47.386s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_torso_state__rosidl_typesupport_introspection_c.h
+[47.426s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/walk_command__rosidl_typesupport_introspection_c.h
+[47.463s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[47.502s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/change_ambac_ctrl_mode__rosidl_typesupport_introspection_c.h
+[47.519s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/change_arm_ctrl_mode__rosidl_typesupport_introspection_c.h
+[47.550s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/control_end_hand__rosidl_typesupport_introspection_c.h
+[47.592s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_change_ctl_mode__rosidl_typesupport_introspection_c.h
+[47.634s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_change_joller__rosidl_typesupport_introspection_c.h
+[47.653s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_change_phases__rosidl_typesupport_introspection_c.h
+[47.672s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_clear_position_cmd__rosidl_typesupport_introspection_c.h
+[47.702s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_mani_inst__rosidl_typesupport_introspection_c.h
+[47.737s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/arm_hand_pose.hpp
+[47.769s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/arm_hand_pose__builder.hpp
+[47.786s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/arm_hand_pose__struct.hpp
+[47.804s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/arm_hand_pose__traits.hpp
+[47.834s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/arm_hand_pose__type_support.hpp
+[47.865s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/ec_joint_motordata__builder.hpp
+[47.894s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/ec_joint_motordata__struct.hpp
+[47.925s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/ec_joint_motordata__traits.hpp
+[47.942s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/ec_joint_motordata__type_support.hpp
+[47.975s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/hand_rotation__builder.hpp
+[48.007s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/hand_rotation__struct.hpp
+[48.024s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/hand_rotation__traits.hpp
+[48.054s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/hand_rotation__type_support.hpp
+[48.087s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/hand_rotation_eular__builder.hpp
+[48.106s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/hand_rotation_eular__struct.hpp
+[48.139s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/hand_rotation_eular__traits.hpp
+[48.169s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/hand_rotation_eular__type_support.hpp
+[48.195s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/quaternion_array__builder.hpp
+[48.225s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/quaternion_array__struct.hpp
+[48.256s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/quaternion_array__traits.hpp
+[48.289s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/quaternion_array__type_support.hpp
+[48.328s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/record_arm_hand_pose__builder.hpp
+[48.366s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/record_arm_hand_pose__struct.hpp
+[48.398s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/record_arm_hand_pose__traits.hpp
+[48.438s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/record_arm_hand_pose__type_support.hpp
+[48.470s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_arm_info__builder.hpp
+[48.511s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_arm_info__struct.hpp
+[48.541s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_arm_info__traits.hpp
+[48.573s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_arm_info__type_support.hpp
+[48.605s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_arm_qvvd__builder.hpp
+[48.634s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_arm_qvvd__struct.hpp
+[48.664s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_arm_qvvd__traits.hpp
+[48.694s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_arm_qvvd__type_support.hpp
+[48.724s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_hand_eff__builder.hpp
+[48.756s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_hand_eff__struct.hpp
+[48.787s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_hand_eff__traits.hpp
+[48.817s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_hand_eff__type_support.hpp
+[48.849s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_hand_position__builder.hpp
+[48.878s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_hand_position__struct.hpp
+[48.912s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_hand_position__traits.hpp
+[48.941s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_hand_position__type_support.hpp
+[48.974s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_head_motion_data__builder.hpp
+[49.009s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_head_motion_data__struct.hpp
+[49.031s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_head_motion_data__traits.hpp
+[49.053s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_head_motion_data__type_support.hpp
+[49.073s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_phase__builder.hpp
+[49.094s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_phase__struct.hpp
+[49.115s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_phase__traits.hpp
+[49.148s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_phase__type_support.hpp
+[49.169s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_qv_tau__builder.hpp
+[49.202s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_qv_tau__struct.hpp
+[49.236s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_qv_tau__traits.hpp
+[49.266s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_qv_tau__type_support.hpp
+[49.298s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_torso_state__builder.hpp
+[49.330s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_torso_state__struct.hpp
+[49.362s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_torso_state__traits.hpp
+[49.394s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_torso_state__type_support.hpp
+[49.426s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/walk_command__builder.hpp
+[49.444s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/walk_command__struct.hpp
+[49.462s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/walk_command__traits.hpp
+[49.494s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/walk_command__type_support.hpp
+[49.526s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/ec_joint_motordata.hpp
+[49.557s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/hand_rotation.hpp
+[49.590s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/hand_rotation_eular.hpp
+[49.622s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/quaternion_array.hpp
+[49.653s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/record_arm_hand_pose.hpp
+[49.686s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/robot_arm_info.hpp
+[49.727s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/robot_arm_qvvd.hpp
+[49.760s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/robot_hand_eff.hpp
+[49.799s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/robot_hand_position.hpp
+[49.837s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/robot_head_motion_data.hpp
+[49.868s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/robot_phase.hpp
+[49.907s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/robot_qv_tau.hpp
+[49.946s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/robot_torso_state.hpp
+[49.963s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/rosidl_generator_cpp__visibility_control.hpp
+[50.003s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/walk_command.hpp
+[50.044s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/change_ambac_ctrl_mode.hpp
+[50.074s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/change_arm_ctrl_mode.hpp
+[50.106s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/control_end_hand.hpp
+[50.146s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/change_ambac_ctrl_mode__builder.hpp
+[50.186s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/change_ambac_ctrl_mode__struct.hpp
+[50.227s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/change_ambac_ctrl_mode__traits.hpp
+[50.276s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/change_ambac_ctrl_mode__type_support.hpp
+[50.309s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/change_arm_ctrl_mode__builder.hpp
+[50.341s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/change_arm_ctrl_mode__struct.hpp
+[50.373s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/change_arm_ctrl_mode__traits.hpp
+[50.406s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/change_arm_ctrl_mode__type_support.hpp
+[50.425s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/control_end_hand__builder.hpp
+[50.457s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/control_end_hand__struct.hpp
+[50.489s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/control_end_hand__traits.hpp
+[50.529s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/control_end_hand__type_support.hpp
+[50.561s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_change_ctl_mode__builder.hpp
+[50.602s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_change_ctl_mode__struct.hpp
+[50.644s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_change_ctl_mode__traits.hpp
+[50.676s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_change_ctl_mode__type_support.hpp
+[50.710s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_change_joller__builder.hpp
+[50.744s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_change_joller__struct.hpp
+[50.777s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_change_joller__traits.hpp
+[50.796s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_change_joller__type_support.hpp
+[50.829s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_change_phases__builder.hpp
+[50.862s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_change_phases__struct.hpp
+[50.894s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_change_phases__traits.hpp
+[50.926s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_change_phases__type_support.hpp
+[50.958s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_clear_position_cmd__builder.hpp
+[50.977s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_clear_position_cmd__struct.hpp
+[50.996s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_clear_position_cmd__traits.hpp
+[51.029s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_clear_position_cmd__type_support.hpp
+[51.061s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_mani_inst__builder.hpp
+[51.093s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_mani_inst__struct.hpp
+[51.125s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_mani_inst__traits.hpp
+[51.158s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_mani_inst__type_support.hpp
+[51.190s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/srv_change_ctl_mode.hpp
+[51.222s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/srv_change_joller.hpp
+[51.255s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/srv_change_phases.hpp
+[51.286s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/srv_clear_position_cmd.hpp
+[51.305s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/srv_mani_inst.hpp
+[51.331s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/arm_hand_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[51.362s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/ec_joint_motordata__rosidl_typesupport_fastrtps_cpp.hpp
+[51.394s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/hand_rotation__rosidl_typesupport_fastrtps_cpp.hpp
+[51.426s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/hand_rotation_eular__rosidl_typesupport_fastrtps_cpp.hpp
+[51.458s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/quaternion_array__rosidl_typesupport_fastrtps_cpp.hpp
+[51.490s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/record_arm_hand_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[51.522s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_arm_info__rosidl_typesupport_fastrtps_cpp.hpp
+[51.554s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_arm_qvvd__rosidl_typesupport_fastrtps_cpp.hpp
+[51.572s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_hand_eff__rosidl_typesupport_fastrtps_cpp.hpp
+[51.592s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_hand_position__rosidl_typesupport_fastrtps_cpp.hpp
+[51.611s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_head_motion_data__rosidl_typesupport_fastrtps_cpp.hpp
+[51.642s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_phase__rosidl_typesupport_fastrtps_cpp.hpp
+[51.674s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_qv_tau__rosidl_typesupport_fastrtps_cpp.hpp
+[51.706s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_torso_state__rosidl_typesupport_fastrtps_cpp.hpp
+[51.739s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/walk_command__rosidl_typesupport_fastrtps_cpp.hpp
+[51.770s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[51.805s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/change_ambac_ctrl_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[51.837s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/change_arm_ctrl_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[51.869s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/control_end_hand__rosidl_typesupport_fastrtps_cpp.hpp
+[51.902s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_change_ctl_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[51.933s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_change_joller__rosidl_typesupport_fastrtps_cpp.hpp
+[51.966s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_change_phases__rosidl_typesupport_fastrtps_cpp.hpp
+[51.998s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_clear_position_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[52.030s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_mani_inst__rosidl_typesupport_fastrtps_cpp.hpp
+[52.066s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/arm_hand_pose__rosidl_typesupport_introspection_cpp.hpp
+[52.098s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/ec_joint_motordata__rosidl_typesupport_introspection_cpp.hpp
+[52.129s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/hand_rotation__rosidl_typesupport_introspection_cpp.hpp
+[52.161s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/hand_rotation_eular__rosidl_typesupport_introspection_cpp.hpp
+[52.194s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/quaternion_array__rosidl_typesupport_introspection_cpp.hpp
+[52.225s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/record_arm_hand_pose__rosidl_typesupport_introspection_cpp.hpp
+[52.258s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_arm_info__rosidl_typesupport_introspection_cpp.hpp
+[52.290s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_arm_qvvd__rosidl_typesupport_introspection_cpp.hpp
+[52.331s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_hand_eff__rosidl_typesupport_introspection_cpp.hpp
+[52.370s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_hand_position__rosidl_typesupport_introspection_cpp.hpp
+[52.405s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_head_motion_data__rosidl_typesupport_introspection_cpp.hpp
+[52.445s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_phase__rosidl_typesupport_introspection_cpp.hpp
+[52.485s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_qv_tau__rosidl_typesupport_introspection_cpp.hpp
+[52.525s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/robot_torso_state__rosidl_typesupport_introspection_cpp.hpp
+[52.564s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/msg/detail/walk_command__rosidl_typesupport_introspection_cpp.hpp
+[52.597s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/change_ambac_ctrl_mode__rosidl_typesupport_introspection_cpp.hpp
+[52.630s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/change_arm_ctrl_mode__rosidl_typesupport_introspection_cpp.hpp
+[52.670s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/control_end_hand__rosidl_typesupport_introspection_cpp.hpp
+[52.693s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_change_ctl_mode__rosidl_typesupport_introspection_cpp.hpp
+[52.733s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_change_joller__rosidl_typesupport_introspection_cpp.hpp
+[52.773s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_change_phases__rosidl_typesupport_introspection_cpp.hpp
+[52.814s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_clear_position_cmd__rosidl_typesupport_introspection_cpp.hpp
+[52.854s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/include/dynamic_biped/dynamic_biped/srv/detail/srv_mani_inst__rosidl_typesupport_introspection_cpp.hpp
+[52.895s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/environment/pythonpath.sh
+[52.936s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/environment/pythonpath.dsv
+[52.979s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped-0.0.1-py3.12.egg-info/PKG-INFO
+[53.022s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped-0.0.1-py3.12.egg-info/SOURCES.txt
+[53.063s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped-0.0.1-py3.12.egg-info/dependency_links.txt
+[53.105s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped-0.0.1-py3.12.egg-info/top_level.txt
+[53.154s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/__init__.py
+[53.198s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/_dynamic_biped_s.ep.rosidl_typesupport_c.c
+[53.241s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/_dynamic_biped_s.ep.rosidl_typesupport_fastrtps_c.c
+[53.283s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/_dynamic_biped_s.ep.rosidl_typesupport_introspection_c.c
+[53.325s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/dynamic_biped_s__rosidl_typesupport_c.so
+[53.369s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/dynamic_biped_s__rosidl_typesupport_fastrtps_c.so
+[53.410s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/dynamic_biped_s__rosidl_typesupport_introspection_c.so
+[53.453s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/__init__.py
+[53.493s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_arm_hand_pose.py
+[53.526s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_arm_hand_pose_s.c
+[53.558s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_ec_joint_motordata.py
+[53.590s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_ec_joint_motordata_s.c
+[53.622s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_hand_rotation.py
+[53.654s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_hand_rotation_eular.py
+[53.686s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_hand_rotation_eular_s.c
+[53.718s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_hand_rotation_s.c
+[53.749s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_quaternion_array.py
+[53.781s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_quaternion_array_s.c
+[53.814s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_record_arm_hand_pose.py
+[53.846s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_record_arm_hand_pose_s.c
+[53.877s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_robot_arm_info.py
+[53.910s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_robot_arm_info_s.c
+[53.942s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_robot_arm_qvvd.py
+[53.974s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_robot_arm_qvvd_s.c
+[54.006s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_robot_hand_eff.py
+[54.038s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_robot_hand_eff_s.c
+[54.073s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_robot_hand_position.py
+[54.106s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_robot_hand_position_s.c
+[54.138s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_robot_head_motion_data.py
+[54.170s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_robot_head_motion_data_s.c
+[54.203s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_robot_phase.py
+[54.234s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_robot_phase_s.c
+[54.266s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_robot_qv_tau.py
+[54.297s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_robot_qv_tau_s.c
+[54.330s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_robot_torso_state.py
+[54.364s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_robot_torso_state_s.c
+[54.383s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_walk_command.py
+[54.415s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_walk_command_s.c
+[54.446s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/srv/__init__.py
+[54.478s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/srv/_change_ambac_ctrl_mode.py
+[54.510s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/srv/_change_ambac_ctrl_mode_s.c
+[54.542s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/srv/_change_arm_ctrl_mode.py
+[54.574s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/srv/_change_arm_ctrl_mode_s.c
+[54.606s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/srv/_control_end_hand.py
+[54.637s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/srv/_control_end_hand_s.c
+[54.669s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/srv/_srv_change_ctl_mode.py
+[54.700s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/srv/_srv_change_ctl_mode_s.c
+[54.732s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/srv/_srv_change_joller.py
+[54.754s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/srv/_srv_change_joller_s.c
+[54.773s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/srv/_srv_change_phases.py
+[54.805s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/srv/_srv_change_phases_s.c
+[54.838s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/srv/_srv_clear_position_cmd.py
+[54.856s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/srv/_srv_clear_position_cmd_s.c
+[54.889s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/srv/_srv_mani_inst.py
+[54.923s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/srv/_srv_mani_inst_s.c
+[54.955s] -- Up-to-date symlink: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/dynamic_biped_s__rosidl_typesupport_fastrtps_c.so
+[54.957s] -- Up-to-date symlink: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/dynamic_biped_s__rosidl_typesupport_introspection_c.so
+[54.958s] -- Up-to-date symlink: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/dynamic_biped_s__rosidl_typesupport_c.so
+[54.959s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/ArmHandPose.idl
+[54.993s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/ECJointMotordata.idl
+[55.026s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/HandRotationEular.idl
+[55.058s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/HandRotation.idl
+[55.076s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/QuaternionArray.idl
+[55.096s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/RecordArmHandPose.idl
+[55.115s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/RobotArmInfo.idl
+[55.146s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/RobotArmQVVD.idl
+[55.178s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/RobotHandEff.idl
+[55.197s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/RobotHandPosition.idl
+[55.216s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/RobotHeadMotionData.idl
+[55.249s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/RobotPhase.idl
+[55.282s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/RobotQVTau.idl
+[55.301s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/RobotTorsoState.idl
+[55.321s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/WalkCommand.idl
+[55.361s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/srv/ChangeAMBACCtrlMode.idl
+[55.393s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/srv/ChangeArmCtrlMode.idl
+[55.413s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/srv/ControlEndHand.idl
+[55.445s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/srv/SrvChangeCtlMode.idl
+[55.478s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/srv/SrvChangeJoller.idl
+[55.520s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/srv/SrvChangePhases.idl
+[55.561s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/srv/SrvClearPositionCMD.idl
+[55.603s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/srv/SrvManiInst.idl
+[55.644s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/ArmHandPose.msg
+[55.685s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/ECJointMotordata.msg
+[55.757s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/HandRotationEular.msg
+[55.802s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/HandRotation.msg
+[55.845s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/QuaternionArray.msg
+[55.887s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/RecordArmHandPose.msg
+[55.909s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/RobotArmInfo.msg
+[55.930s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/RobotArmQVVD.msg
+[55.952s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/RobotHandEff.msg
+[55.974s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/RobotHandPosition.msg
+[56.007s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/RobotHeadMotionData.msg
+[56.041s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/RobotPhase.msg
+[56.060s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/RobotQVTau.msg
+[56.093s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/RobotTorsoState.msg
+[56.113s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/msg/WalkCommand.msg
+[56.133s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/srv/ChangeAMBACCtrlMode.srv
+[56.152s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/srv/ChangeArmCtrlMode.srv
+[56.183s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/srv/ControlEndHand.srv
+[56.203s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/srv/SrvChangeCtlMode.srv
+[56.222s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/srv/SrvChangeJoller.srv
+[56.255s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/srv/SrvChangePhases.srv
+[56.276s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/srv/SrvClearPositionCMD.srv
+[56.295s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/srv/SrvManiInst.srv
+[56.327s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/ament_index/resource_index/package_run_dependencies/dynamic_biped
+[56.347s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/ament_index/resource_index/parent_prefix_path/dynamic_biped
+[56.367s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/environment/ament_prefix_path.sh
+[56.399s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/environment/ament_prefix_path.dsv
+[56.431s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/environment/path.sh
+[56.463s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/environment/path.dsv
+[56.494s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/local_setup.bash
+[56.527s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/local_setup.sh
+[56.558s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/local_setup.zsh
+[56.577s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/local_setup.dsv
+[56.596s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/package.dsv
+[56.616s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/ament_index/resource_index/packages/dynamic_biped
+[56.647s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/cmake/rosidl_cmake-extras.cmake
+[56.681s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/cmake/ament_cmake_export_dependencies-extras.cmake
+[56.701s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/cmake/ament_cmake_export_include_directories-extras.cmake
+[56.720s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/cmake/ament_cmake_export_libraries-extras.cmake
+[56.753s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/cmake/ament_cmake_export_targets-extras.cmake
+[56.776s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[56.796s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[56.815s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/cmake/dynamic_bipedConfig.cmake
+[56.833s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/cmake/dynamic_bipedConfig-version.cmake
+[56.852s] -- Symlinking: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/package.xml
+[56.871s] -- Installing: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/libdynamic_biped__rosidl_generator_c.so
+[56.876s] -- Set non-toolchain portion of runtime path of "/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/libdynamic_biped__rosidl_generator_c.so" to ""
+[56.876s] -- Installing: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/libdynamic_biped__rosidl_typesupport_fastrtps_c.so
+[56.880s] -- Set non-toolchain portion of runtime path of "/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/libdynamic_biped__rosidl_typesupport_fastrtps_c.so" to ""
+[56.881s] -- Installing: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/libdynamic_biped__rosidl_typesupport_introspection_c.so
+[56.884s] -- Set non-toolchain portion of runtime path of "/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/libdynamic_biped__rosidl_typesupport_introspection_c.so" to ""
+[56.884s] -- Installing: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/libdynamic_biped__rosidl_typesupport_c.so
+[56.887s] -- Set non-toolchain portion of runtime path of "/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/libdynamic_biped__rosidl_typesupport_c.so" to ""
+[56.887s] -- Installing: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/libdynamic_biped__rosidl_typesupport_fastrtps_cpp.so
+[56.895s] -- Set non-toolchain portion of runtime path of "/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/libdynamic_biped__rosidl_typesupport_fastrtps_cpp.so" to ""
+[56.896s] -- Installing: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/libdynamic_biped__rosidl_typesupport_introspection_cpp.so
+[56.903s] -- Set non-toolchain portion of runtime path of "/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/libdynamic_biped__rosidl_typesupport_introspection_cpp.so" to ""
+[56.904s] -- Installing: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/libdynamic_biped__rosidl_typesupport_cpp.so
+[56.909s] -- Set non-toolchain portion of runtime path of "/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/libdynamic_biped__rosidl_typesupport_cpp.so" to ""
+[57.078s] Listing '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped'...
+[57.079s] Compiling '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/__init__.py'...
+[57.080s] Listing '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg'...
+[57.080s] Compiling '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/__init__.py'...
+[57.081s] Compiling '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_arm_hand_pose.py'...
+[57.081s] Compiling '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_ec_joint_motordata.py'...
+[57.082s] Compiling '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_hand_rotation.py'...
+[57.082s] Compiling '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_hand_rotation_eular.py'...
+[57.083s] Compiling '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_quaternion_array.py'...
+[57.083s] Compiling '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_record_arm_hand_pose.py'...
+[57.084s] Compiling '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_robot_arm_info.py'...
+[57.084s] Compiling '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_robot_arm_qvvd.py'...
+[57.084s] Compiling '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_robot_hand_eff.py'...
+[57.085s] Compiling '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_robot_hand_position.py'...
+[57.085s] Compiling '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_robot_head_motion_data.py'...
+[57.086s] Compiling '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_robot_phase.py'...
+[57.086s] Compiling '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_robot_qv_tau.py'...
+[57.087s] Compiling '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_robot_torso_state.py'...
+[57.087s] Compiling '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/msg/_walk_command.py'...
+[57.088s] Listing '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/srv'...
+[57.088s] Compiling '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/srv/__init__.py'...
+[57.089s] Compiling '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/srv/_change_ambac_ctrl_mode.py'...
+[57.089s] Compiling '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/srv/_change_arm_ctrl_mode.py'...
+[57.089s] Compiling '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/srv/_control_end_hand.py'...
+[57.090s] Compiling '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/srv/_srv_change_ctl_mode.py'...
+[57.091s] Compiling '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/srv/_srv_change_joller.py'...
+[57.091s] Compiling '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/srv/_srv_change_phases.py'...
+[57.092s] Compiling '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/srv/_srv_clear_position_cmd.py'...
+[57.092s] Compiling '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped/srv/_srv_mani_inst.py'...
+[57.096s] -- Installing: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/libdynamic_biped__rosidl_generator_py.so
+[57.098s] -- Set non-toolchain portion of runtime path of "/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/libdynamic_biped__rosidl_generator_py.so" to ""
+[57.098s] -- Installing: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/cmake/export_dynamic_biped__rosidl_generator_cExport.cmake
+[57.099s] -- Installing: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/cmake/export_dynamic_biped__rosidl_generator_cExport-noconfig.cmake
+[57.099s] -- Installing: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/cmake/export_dynamic_biped__rosidl_typesupport_fastrtps_cExport.cmake
+[57.100s] -- Installing: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/cmake/export_dynamic_biped__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[57.100s] -- Installing: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/cmake/dynamic_biped__rosidl_typesupport_introspection_cExport.cmake
+[57.101s] -- Installing: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/cmake/dynamic_biped__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[57.101s] -- Installing: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/cmake/dynamic_biped__rosidl_typesupport_cExport.cmake
+[57.102s] -- Installing: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/cmake/dynamic_biped__rosidl_typesupport_cExport-noconfig.cmake
+[57.102s] -- Installing: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/cmake/export_dynamic_biped__rosidl_generator_cppExport.cmake
+[57.103s] -- Installing: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/cmake/export_dynamic_biped__rosidl_typesupport_fastrtps_cppExport.cmake
+[57.103s] -- Installing: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/cmake/export_dynamic_biped__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[57.103s] -- Installing: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/cmake/dynamic_biped__rosidl_typesupport_introspection_cppExport.cmake
+[57.104s] -- Installing: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/cmake/dynamic_biped__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[57.104s] -- Installing: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/cmake/dynamic_biped__rosidl_typesupport_cppExport.cmake
+[57.105s] -- Installing: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/cmake/dynamic_biped__rosidl_typesupport_cppExport-noconfig.cmake
+[57.105s] -- Installing: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/cmake/export_dynamic_biped__rosidl_generator_pyExport.cmake
+[57.106s] -- Installing: /root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/cmake/export_dynamic_biped__rosidl_generator_pyExport-noconfig.cmake
+[57.108s] Invoked command in '/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(exo_suit_jazzy_v2_2) /usr/bin/cmake --install /root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped

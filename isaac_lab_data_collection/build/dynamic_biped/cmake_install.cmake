@@ -210,7 +210,7 @@ endif()
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   execute_process(
         COMMAND
-        "/root/miniforge3/envs/exo_suit_jazzy_v2/bin/python3" "-m" "compileall"
+        "/opt/conda/envs/exo_suit_jazzy_v2_2/bin/python3" "-m" "compileall"
         "/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages/dynamic_biped"
       )
 endif()
@@ -227,7 +227,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdynamic_biped__rosidl_generator_py.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdynamic_biped__rosidl_generator_py.so"
-         OLD_RPATH "/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped:/opt/ros/jazzy/lib:/root/miniforge3/envs/exo_suit_jazzy_v2/lib:"
+         OLD_RPATH "/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped:/opt/ros/jazzy/lib:/opt/conda/envs/exo_suit_jazzy_v2_2/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdynamic_biped__rosidl_generator_py.so")

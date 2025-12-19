@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
+#include "dynamic_biped/msg/detail/robot_qv_tau__functions.h"
 #include "dynamic_biped/msg/detail/robot_qv_tau__type_support.h"
 #include "dynamic_biped/msg/detail/robot_qv_tau__struct.h"
-#include "dynamic_biped/msg/detail/robot_qv_tau__functions.h"
+#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

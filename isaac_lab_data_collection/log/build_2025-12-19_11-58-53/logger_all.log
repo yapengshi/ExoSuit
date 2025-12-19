@@ -1,0 +1,277 @@
+[0.201s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.201s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff9cb880e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff9cd90680>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff9cd90680>>)
+[0.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.275s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/Synthetic_data_collection/isaac_lab_data_collection'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_biped) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_biped) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_biped) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_biped) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_biped) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_biped) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_biped) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_biped) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_biped) by extension 'ros'
+[0.329s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dynamic_biped' with type 'ros.ament_cmake' and name 'dynamic_biped'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ignore_ament_install'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['colcon_pkg']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'colcon_pkg'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['colcon_meta']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'colcon_meta'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['ros']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ros'
+[0.330s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_description' with type 'ros.ament_cmake' and name 'my_robot_description'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_angle_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_angle_publisher) by extension 'ignore'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_angle_publisher) by extension 'ignore_ament_install'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_angle_publisher) by extensions ['colcon_pkg']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_angle_publisher) by extension 'colcon_pkg'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_angle_publisher) by extensions ['colcon_meta']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_angle_publisher) by extension 'colcon_meta'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_angle_publisher) by extensions ['ros']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_angle_publisher) by extension 'ros'
+[0.332s] DEBUG:colcon.colcon_core.package_identification:Package 'src/servo_angle_publisher' with type 'ros.ament_python' and name 'servo_angle_publisher'
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.419s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.419s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.428s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /root/Synthetic_data_collection/isaac_lab_data_collection/install
+[0.436s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 285 installed packages in /opt/ros/jazzy
+[0.440s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'dynamic_biped' build argument 'cmake_args' from command line to 'None'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'dynamic_biped' build argument 'cmake_target' from command line to 'None'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'dynamic_biped' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'dynamic_biped' build argument 'cmake_clean_cache' from command line to 'False'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'dynamic_biped' build argument 'cmake_clean_first' from command line to 'False'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'dynamic_biped' build argument 'cmake_force_configure' from command line to 'False'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'dynamic_biped' build argument 'ament_cmake_args' from command line to 'None'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'dynamic_biped' build argument 'catkin_cmake_args' from command line to 'None'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'dynamic_biped' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.575s] DEBUG:colcon.colcon_core.verb:Building package 'dynamic_biped' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped', 'merge_install': False, 'path': '/root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped', 'symlink_install': False, 'test_result_base': None}
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_args' from command line to 'None'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_target' from command line to 'None'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.576s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Synthetic_data_collection/isaac_lab_data_collection/build/my_robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description', 'merge_install': False, 'path': '/root/Synthetic_data_collection/isaac_lab_data_collection/src/my_robot_description', 'symlink_install': False, 'test_result_base': None}
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'servo_angle_publisher' build argument 'cmake_args' from command line to 'None'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'servo_angle_publisher' build argument 'cmake_target' from command line to 'None'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'servo_angle_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'servo_angle_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'servo_angle_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'servo_angle_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'servo_angle_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'servo_angle_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.577s] Level 5:colcon.colcon_core.verb:set package 'servo_angle_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.577s] DEBUG:colcon.colcon_core.verb:Building package 'servo_angle_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Synthetic_data_collection/isaac_lab_data_collection/build/servo_angle_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher', 'merge_install': False, 'path': '/root/Synthetic_data_collection/isaac_lab_data_collection/src/servo_angle_publisher', 'symlink_install': False, 'test_result_base': None}
+[0.577s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.579s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.579s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped' with build type 'ament_cmake'
+[0.580s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped'
+[0.585s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.585s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.585s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.591s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/Synthetic_data_collection/isaac_lab_data_collection/src/my_robot_description' with build type 'ament_cmake'
+[0.591s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Synthetic_data_collection/isaac_lab_data_collection/src/my_robot_description'
+[0.592s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.592s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.597s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/Synthetic_data_collection/isaac_lab_data_collection/src/servo_angle_publisher' with build type 'ament_python'
+[0.597s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_angle_publisher', 'ament_prefix_path')
+[0.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/share/servo_angle_publisher/hook/ament_prefix_path.ps1'
+[0.600s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/share/servo_angle_publisher/hook/ament_prefix_path.dsv'
+[0.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/share/servo_angle_publisher/hook/ament_prefix_path.sh'
+[0.605s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.605s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.633s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(exo_suit_jazzy_v2_2) /usr/bin/cmake /root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped -DCMAKE_INSTALL_PREFIX=/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped
+[0.645s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Synthetic_data_collection/isaac_lab_data_collection/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(exo_suit_jazzy_v2_2) /usr/bin/cmake /root/Synthetic_data_collection/isaac_lab_data_collection/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description
+[1.041s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/Synthetic_data_collection/isaac_lab_data_collection/src/servo_angle_publisher'
+[1.041s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.041s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.540s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Synthetic_data_collection/isaac_lab_data_collection/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(exo_suit_jazzy_v2_2) /usr/bin/cmake /root/Synthetic_data_collection/isaac_lab_data_collection/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description
+[1.546s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Synthetic_data_collection/isaac_lab_data_collection/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(exo_suit_jazzy_v2_2) /usr/bin/cmake --build /root/Synthetic_data_collection/isaac_lab_data_collection/build/my_robot_description -- -j8 -l8
+[1.650s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Synthetic_data_collection/isaac_lab_data_collection/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(exo_suit_jazzy_v2_2) /usr/bin/cmake --build /root/Synthetic_data_collection/isaac_lab_data_collection/build/my_robot_description -- -j8 -l8
+[1.689s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Synthetic_data_collection/isaac_lab_data_collection/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(exo_suit_jazzy_v2_2) /usr/bin/cmake --install /root/Synthetic_data_collection/isaac_lab_data_collection/build/my_robot_description
+[1.792s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_description)
+[1.794s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Synthetic_data_collection/isaac_lab_data_collection/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(exo_suit_jazzy_v2_2) /usr/bin/cmake --install /root/Synthetic_data_collection/isaac_lab_data_collection/build/my_robot_description
+[1.806s] Level 1:colcon.colcon_core.environment:checking '/root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description' for CMake module files
+[1.811s] Level 1:colcon.colcon_core.environment:checking '/root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description' for CMake config files
+[1.813s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'cmake_prefix_path')
+[1.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.ps1'
+[1.818s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.dsv'
+[1.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.sh'
+[1.824s] Level 1:colcon.colcon_core.environment:checking '/root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/bin'
+[1.825s] Level 1:colcon.colcon_core.environment:checking '/root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/lib/pkgconfig/my_robot_description.pc'
+[1.826s] Level 1:colcon.colcon_core.environment:checking '/root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/lib/python3.12/site-packages'
+[1.828s] Level 1:colcon.colcon_core.environment:checking '/root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/bin'
+[1.829s] INFO:colcon.colcon_core.shell:Creating package script '/root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/package.ps1'
+[1.833s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/package.dsv'
+[1.835s] INFO:colcon.colcon_core.shell:Creating package script '/root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/package.sh'
+[1.838s] INFO:colcon.colcon_core.shell:Creating package script '/root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/package.bash'
+[1.841s] INFO:colcon.colcon_core.shell:Creating package script '/root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/package.zsh'
+[1.844s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/colcon-core/packages/my_robot_description)
+[1.845s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_description)
+[1.845s] Level 1:colcon.colcon_core.environment:checking '/root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description' for CMake module files
+[1.846s] Level 1:colcon.colcon_core.environment:checking '/root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description' for CMake config files
+[1.847s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'cmake_prefix_path')
+[1.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.ps1'
+[1.848s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.dsv'
+[1.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.sh'
+[1.849s] Level 1:colcon.colcon_core.environment:checking '/root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/bin'
+[1.849s] Level 1:colcon.colcon_core.environment:checking '/root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/lib/pkgconfig/my_robot_description.pc'
+[1.850s] Level 1:colcon.colcon_core.environment:checking '/root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/lib/python3.12/site-packages'
+[1.850s] Level 1:colcon.colcon_core.environment:checking '/root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/bin'
+[1.851s] INFO:colcon.colcon_core.shell:Creating package script '/root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/package.ps1'
+[1.852s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/package.dsv'
+[1.853s] INFO:colcon.colcon_core.shell:Creating package script '/root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/package.sh'
+[1.853s] INFO:colcon.colcon_core.shell:Creating package script '/root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/package.bash'
+[1.854s] INFO:colcon.colcon_core.shell:Creating package script '/root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/my_robot_description/package.zsh'
+[1.854s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description/share/colcon-core/packages/my_robot_description)
+[2.034s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Synthetic_data_collection/isaac_lab_data_collection/build/servo_angle_publisher': CONDA_PROMPT_MODIFIER=(exo_suit_jazzy_v2_2) PYTHONPATH=/root/Synthetic_data_collection/isaac_lab_data_collection/build/servo_angle_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /root/Synthetic_data_collection/isaac_lab_data_collection/build/servo_angle_publisher/build
+[2.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Synthetic_data_collection/isaac_lab_data_collection/build/servo_angle_publisher' returned '0': CONDA_PROMPT_MODIFIER=(exo_suit_jazzy_v2_2) PYTHONPATH=/root/Synthetic_data_collection/isaac_lab_data_collection/build/servo_angle_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /root/Synthetic_data_collection/isaac_lab_data_collection/build/servo_angle_publisher/build
+[2.909s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Synthetic_data_collection/isaac_lab_data_collection/src/servo_angle_publisher': CONDA_PROMPT_MODIFIER=(exo_suit_jazzy_v2_2) PYTHONPATH=/root/Synthetic_data_collection/isaac_lab_data_collection/build/servo_angle_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/servo_angle_publisher build --build-base /root/Synthetic_data_collection/isaac_lab_data_collection/build/servo_angle_publisher/build install --record /root/Synthetic_data_collection/isaac_lab_data_collection/build/servo_angle_publisher/install.log --single-version-externally-managed install_data --force
+[3.737s] Level 1:colcon.colcon_core.environment:checking '/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher' for CMake module files
+[3.739s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Synthetic_data_collection/isaac_lab_data_collection/src/servo_angle_publisher' returned '0': CONDA_PROMPT_MODIFIER=(exo_suit_jazzy_v2_2) PYTHONPATH=/root/Synthetic_data_collection/isaac_lab_data_collection/build/servo_angle_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/servo_angle_publisher build --build-base /root/Synthetic_data_collection/isaac_lab_data_collection/build/servo_angle_publisher/build install --record /root/Synthetic_data_collection/isaac_lab_data_collection/build/servo_angle_publisher/install.log --single-version-externally-managed install_data --force
+[3.739s] Level 1:colcon.colcon_core.environment:checking '/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher' for CMake config files
+[3.740s] Level 1:colcon.colcon_core.environment:checking '/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/lib'
+[3.741s] Level 1:colcon.colcon_core.environment:checking '/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/bin'
+[3.741s] Level 1:colcon.colcon_core.environment:checking '/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/lib/pkgconfig/servo_angle_publisher.pc'
+[3.741s] Level 1:colcon.colcon_core.environment:checking '/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/lib/python3.12/site-packages'
+[3.741s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_angle_publisher', 'pythonpath')
+[3.742s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/share/servo_angle_publisher/hook/pythonpath.ps1'
+[3.742s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/share/servo_angle_publisher/hook/pythonpath.dsv'
+[3.743s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/share/servo_angle_publisher/hook/pythonpath.sh'
+[3.744s] Level 1:colcon.colcon_core.environment:checking '/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/bin'
+[3.744s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(servo_angle_publisher)
+[3.744s] INFO:colcon.colcon_core.shell:Creating package script '/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/share/servo_angle_publisher/package.ps1'
+[3.745s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/share/servo_angle_publisher/package.dsv'
+[3.745s] INFO:colcon.colcon_core.shell:Creating package script '/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/share/servo_angle_publisher/package.sh'
+[3.746s] INFO:colcon.colcon_core.shell:Creating package script '/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/share/servo_angle_publisher/package.bash'
+[3.746s] INFO:colcon.colcon_core.shell:Creating package script '/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/share/servo_angle_publisher/package.zsh'
+[3.747s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/share/colcon-core/packages/servo_angle_publisher)
+[3.916s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(exo_suit_jazzy_v2_2) /usr/bin/cmake /root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped -DCMAKE_INSTALL_PREFIX=/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped
+[3.917s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(exo_suit_jazzy_v2_2) /usr/bin/cmake --build /root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped -- -j8 -l8
+[4.867s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(exo_suit_jazzy_v2_2) /usr/bin/cmake --build /root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped -- -j8 -l8
+[4.869s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(exo_suit_jazzy_v2_2) /usr/bin/cmake --install /root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped
+[5.138s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamic_biped)
+[5.139s] Level 1:colcon.colcon_core.environment:checking '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped' for CMake module files
+[5.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(exo_suit_jazzy_v2_2) /usr/bin/cmake --install /root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped
+[5.140s] Level 1:colcon.colcon_core.environment:checking '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped' for CMake config files
+[5.147s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamic_biped', 'cmake_prefix_path')
+[5.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/hook/cmake_prefix_path.ps1'
+[5.148s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/hook/cmake_prefix_path.dsv'
+[5.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/hook/cmake_prefix_path.sh'
+[5.150s] Level 1:colcon.colcon_core.environment:checking '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib'
+[5.150s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamic_biped', 'ld_library_path_lib')
+[5.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/hook/ld_library_path_lib.ps1'
+[5.151s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/hook/ld_library_path_lib.dsv'
+[5.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/hook/ld_library_path_lib.sh'
+[5.153s] Level 1:colcon.colcon_core.environment:checking '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/bin'
+[5.153s] Level 1:colcon.colcon_core.environment:checking '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/pkgconfig/dynamic_biped.pc'
+[5.153s] Level 1:colcon.colcon_core.environment:checking '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages'
+[5.153s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamic_biped', 'pythonpath')
+[5.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/hook/pythonpath.ps1'
+[5.154s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/hook/pythonpath.dsv'
+[5.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/hook/pythonpath.sh'
+[5.156s] Level 1:colcon.colcon_core.environment:checking '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/bin'
+[5.156s] INFO:colcon.colcon_core.shell:Creating package script '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/package.ps1'
+[5.157s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/package.dsv'
+[5.158s] INFO:colcon.colcon_core.shell:Creating package script '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/package.sh'
+[5.158s] INFO:colcon.colcon_core.shell:Creating package script '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/package.bash'
+[5.159s] INFO:colcon.colcon_core.shell:Creating package script '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/package.zsh'
+[5.160s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/colcon-core/packages/dynamic_biped)
+[5.161s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamic_biped)
+[5.161s] Level 1:colcon.colcon_core.environment:checking '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped' for CMake module files
+[5.162s] Level 1:colcon.colcon_core.environment:checking '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped' for CMake config files
+[5.168s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamic_biped', 'cmake_prefix_path')
+[5.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/hook/cmake_prefix_path.ps1'
+[5.170s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/hook/cmake_prefix_path.dsv'
+[5.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/hook/cmake_prefix_path.sh'
+[5.172s] Level 1:colcon.colcon_core.environment:checking '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib'
+[5.172s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamic_biped', 'ld_library_path_lib')
+[5.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/hook/ld_library_path_lib.ps1'
+[5.173s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/hook/ld_library_path_lib.dsv'
+[5.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/hook/ld_library_path_lib.sh'
+[5.174s] Level 1:colcon.colcon_core.environment:checking '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/bin'
+[5.174s] Level 1:colcon.colcon_core.environment:checking '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/pkgconfig/dynamic_biped.pc'
+[5.174s] Level 1:colcon.colcon_core.environment:checking '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages'
+[5.175s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamic_biped', 'pythonpath')
+[5.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/hook/pythonpath.ps1'
+[5.175s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/hook/pythonpath.dsv'
+[5.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/hook/pythonpath.sh'
+[5.177s] Level 1:colcon.colcon_core.environment:checking '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/bin'
+[5.177s] INFO:colcon.colcon_core.shell:Creating package script '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/package.ps1'
+[5.178s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/package.dsv'
+[5.179s] INFO:colcon.colcon_core.shell:Creating package script '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/package.sh'
+[5.179s] INFO:colcon.colcon_core.shell:Creating package script '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/package.bash'
+[5.180s] INFO:colcon.colcon_core.shell:Creating package script '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/dynamic_biped/package.zsh'
+[5.193s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/share/colcon-core/packages/dynamic_biped)
+[5.194s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.195s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.195s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.195s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.208s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[5.208s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.208s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.208s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.208s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[5.208s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.209s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/Synthetic_data_collection/isaac_lab_data_collection/install/local_setup.ps1'
+[5.211s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/Synthetic_data_collection/isaac_lab_data_collection/install/_local_setup_util_ps1.py'
+[5.212s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/Synthetic_data_collection/isaac_lab_data_collection/install/setup.ps1'
+[5.215s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/Synthetic_data_collection/isaac_lab_data_collection/install/local_setup.sh'
+[5.216s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/Synthetic_data_collection/isaac_lab_data_collection/install/_local_setup_util_sh.py'
+[5.217s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/Synthetic_data_collection/isaac_lab_data_collection/install/setup.sh'
+[5.218s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/Synthetic_data_collection/isaac_lab_data_collection/install/local_setup.bash'
+[5.219s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/Synthetic_data_collection/isaac_lab_data_collection/install/setup.bash'
+[5.220s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/Synthetic_data_collection/isaac_lab_data_collection/install/local_setup.zsh'
+[5.221s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/Synthetic_data_collection/isaac_lab_data_collection/install/setup.zsh'

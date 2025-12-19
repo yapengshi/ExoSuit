@@ -1,1 +1,0 @@
-/root/Synthetic_data_collection/isaac_lab_data_collection/src/servo_angle_publisher/setup.py

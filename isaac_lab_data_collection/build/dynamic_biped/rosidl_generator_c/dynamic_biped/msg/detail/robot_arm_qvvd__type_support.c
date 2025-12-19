@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "dynamic_biped/msg/detail/robot_arm_qvvd__functions.h"
 #include "dynamic_biped/msg/detail/robot_arm_qvvd__struct.h"
-#include "rosidl_typesupport_interface/macros.h"
+#include "dynamic_biped/msg/detail/robot_arm_qvvd__functions.h"
 #include "dynamic_biped/msg/detail/robot_arm_qvvd__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "dynamic_biped/srv/detail/srv_change_joller__type_support.h"
+#include "dynamic_biped/srv/detail/srv_change_joller__struct.h"
 #include "dynamic_biped/srv/detail/srv_change_joller__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
-#include "dynamic_biped/srv/detail/srv_change_joller__struct.h"
 
 #ifdef __cplusplus
 extern "C"
