@@ -328,17 +328,17 @@ dynamic_biped__rosidl_typesupport_cpp/fast:
 .PHONY : dynamic_biped__rosidl_typesupport_cpp/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_symlink_dynamic_biped
+# Target rules for targets named ament_cmake_python_copy_dynamic_biped
 
 # Build rule for target.
-ament_cmake_python_symlink_dynamic_biped: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_dynamic_biped
-.PHONY : ament_cmake_python_symlink_dynamic_biped
+ament_cmake_python_copy_dynamic_biped: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_dynamic_biped
+.PHONY : ament_cmake_python_copy_dynamic_biped
 
 # fast build rule for target.
-ament_cmake_python_symlink_dynamic_biped/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_dynamic_biped.dir/build.make CMakeFiles/ament_cmake_python_symlink_dynamic_biped.dir/build
-.PHONY : ament_cmake_python_symlink_dynamic_biped/fast
+ament_cmake_python_copy_dynamic_biped/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_dynamic_biped.dir/build.make CMakeFiles/ament_cmake_python_copy_dynamic_biped.dir/build
+.PHONY : ament_cmake_python_copy_dynamic_biped/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_dynamic_biped_egg
@@ -6024,7 +6024,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_dynamic_biped_egg"
-	@echo "... ament_cmake_python_symlink_dynamic_biped"
+	@echo "... ament_cmake_python_copy_dynamic_biped"
 	@echo "... dynamic_biped"
 	@echo "... dynamic_biped__cpp"
 	@echo "... dynamic_biped__py"

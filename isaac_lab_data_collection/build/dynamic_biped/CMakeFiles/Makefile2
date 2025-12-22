@@ -96,7 +96,7 @@ clean: CMakeFiles/dynamic_biped__cpp.dir/clean
 clean: CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_cpp.dir/clean
 clean: CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_cpp.dir/clean
 clean: CMakeFiles/dynamic_biped__rosidl_typesupport_cpp.dir/clean
-clean: CMakeFiles/ament_cmake_python_symlink_dynamic_biped.dir/clean
+clean: CMakeFiles/ament_cmake_python_copy_dynamic_biped.dir/clean
 clean: CMakeFiles/ament_cmake_python_build_dynamic_biped_egg.dir/clean
 clean: CMakeFiles/dynamic_biped__rosidl_generator_py.dir/clean
 clean: CMakeFiles/dynamic_biped_s__rosidl_typesupport_fastrtps_c.dir/clean
@@ -176,6 +176,7 @@ CMakeFiles/dynamic_biped_uninstall.dir/clean:
 # Target rules for target CMakeFiles/dynamic_biped.dir
 
 # All Build rule for target.
+CMakeFiles/dynamic_biped.dir/all: CMakeFiles/dynamic_biped__rosidl_generator_type_description.dir/all
 CMakeFiles/dynamic_biped.dir/all: CMakeFiles/dynamic_biped__rosidl_generator_c.dir/all
 CMakeFiles/dynamic_biped.dir/all: CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_c.dir/all
 CMakeFiles/dynamic_biped.dir/all: CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_c.dir/all
@@ -184,7 +185,6 @@ CMakeFiles/dynamic_biped.dir/all: CMakeFiles/dynamic_biped__cpp.dir/all
 CMakeFiles/dynamic_biped.dir/all: CMakeFiles/dynamic_biped__rosidl_typesupport_fastrtps_cpp.dir/all
 CMakeFiles/dynamic_biped.dir/all: CMakeFiles/dynamic_biped__rosidl_typesupport_introspection_cpp.dir/all
 CMakeFiles/dynamic_biped.dir/all: CMakeFiles/dynamic_biped__rosidl_typesupport_cpp.dir/all
-CMakeFiles/dynamic_biped.dir/all: CMakeFiles/dynamic_biped__rosidl_generator_type_description.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dynamic_biped.dir/build.make CMakeFiles/dynamic_biped.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dynamic_biped.dir/build.make CMakeFiles/dynamic_biped.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/CMakeFiles --progress-num= "Built target dynamic_biped"
@@ -444,36 +444,36 @@ CMakeFiles/dynamic_biped__rosidl_typesupport_cpp.dir/clean:
 .PHONY : CMakeFiles/dynamic_biped__rosidl_typesupport_cpp.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/ament_cmake_python_symlink_dynamic_biped.dir
+# Target rules for target CMakeFiles/ament_cmake_python_copy_dynamic_biped.dir
 
 # All Build rule for target.
-CMakeFiles/ament_cmake_python_symlink_dynamic_biped.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_dynamic_biped.dir/build.make CMakeFiles/ament_cmake_python_symlink_dynamic_biped.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_dynamic_biped.dir/build.make CMakeFiles/ament_cmake_python_symlink_dynamic_biped.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/CMakeFiles --progress-num= "Built target ament_cmake_python_symlink_dynamic_biped"
-.PHONY : CMakeFiles/ament_cmake_python_symlink_dynamic_biped.dir/all
+CMakeFiles/ament_cmake_python_copy_dynamic_biped.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_dynamic_biped.dir/build.make CMakeFiles/ament_cmake_python_copy_dynamic_biped.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_dynamic_biped.dir/build.make CMakeFiles/ament_cmake_python_copy_dynamic_biped.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/CMakeFiles --progress-num= "Built target ament_cmake_python_copy_dynamic_biped"
+.PHONY : CMakeFiles/ament_cmake_python_copy_dynamic_biped.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ament_cmake_python_symlink_dynamic_biped.dir/rule: cmake_check_build_system
+CMakeFiles/ament_cmake_python_copy_dynamic_biped.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ament_cmake_python_symlink_dynamic_biped.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ament_cmake_python_copy_dynamic_biped.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/CMakeFiles 0
-.PHONY : CMakeFiles/ament_cmake_python_symlink_dynamic_biped.dir/rule
+.PHONY : CMakeFiles/ament_cmake_python_copy_dynamic_biped.dir/rule
 
 # Convenience name for target.
-ament_cmake_python_symlink_dynamic_biped: CMakeFiles/ament_cmake_python_symlink_dynamic_biped.dir/rule
-.PHONY : ament_cmake_python_symlink_dynamic_biped
+ament_cmake_python_copy_dynamic_biped: CMakeFiles/ament_cmake_python_copy_dynamic_biped.dir/rule
+.PHONY : ament_cmake_python_copy_dynamic_biped
 
 # clean rule for target.
-CMakeFiles/ament_cmake_python_symlink_dynamic_biped.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_dynamic_biped.dir/build.make CMakeFiles/ament_cmake_python_symlink_dynamic_biped.dir/clean
-.PHONY : CMakeFiles/ament_cmake_python_symlink_dynamic_biped.dir/clean
+CMakeFiles/ament_cmake_python_copy_dynamic_biped.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_dynamic_biped.dir/build.make CMakeFiles/ament_cmake_python_copy_dynamic_biped.dir/clean
+.PHONY : CMakeFiles/ament_cmake_python_copy_dynamic_biped.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/ament_cmake_python_build_dynamic_biped_egg.dir
 
 # All Build rule for target.
-CMakeFiles/ament_cmake_python_build_dynamic_biped_egg.dir/all: CMakeFiles/ament_cmake_python_symlink_dynamic_biped.dir/all
+CMakeFiles/ament_cmake_python_build_dynamic_biped_egg.dir/all: CMakeFiles/ament_cmake_python_copy_dynamic_biped.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_dynamic_biped_egg.dir/build.make CMakeFiles/ament_cmake_python_build_dynamic_biped_egg.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_dynamic_biped_egg.dir/build.make CMakeFiles/ament_cmake_python_build_dynamic_biped_egg.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/CMakeFiles --progress-num= "Built target ament_cmake_python_build_dynamic_biped_egg"

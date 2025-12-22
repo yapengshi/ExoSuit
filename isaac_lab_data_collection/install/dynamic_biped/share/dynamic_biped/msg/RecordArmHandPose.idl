@@ -1,1 +1,18 @@
-/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_adapter/dynamic_biped/msg/RecordArmHandPose.idl
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from dynamic_biped/msg/RecordArmHandPose.msg
+// generated code does not contain a copyright notice
+
+#include "dynamic_biped/msg/ArmHandPose.idl"
+#include "std_msgs/msg/Header.idl"
+
+module dynamic_biped {
+  module msg {
+    struct RecordArmHandPose {
+      std_msgs::msg::Header header;
+
+      dynamic_biped::msg::ArmHandPose left_pose;
+
+      dynamic_biped::msg::ArmHandPose right_pose;
+    };
+  };
+};

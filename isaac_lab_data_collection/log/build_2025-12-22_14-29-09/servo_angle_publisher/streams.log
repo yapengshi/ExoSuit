@@ -1,0 +1,24 @@
+[1.349s] Invoking command in '/root/Synthetic_data_collection/isaac_lab_data_collection/src/servo_angle_publisher': CONDA_PROMPT_MODIFIER=(exo_suit_jazzy_v2_3) PYTHONPATH=/root/Synthetic_data_collection/isaac_lab_data_collection/build/servo_angle_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/servo_angle_publisher build --build-base /root/Synthetic_data_collection/isaac_lab_data_collection/build/servo_angle_publisher/build install --record /root/Synthetic_data_collection/isaac_lab_data_collection/build/servo_angle_publisher/install.log --single-version-externally-managed install_data
+[1.760s] running egg_info
+[1.784s] writing ../../build/servo_angle_publisher/servo_angle_publisher.egg-info/PKG-INFO
+[1.785s] writing dependency_links to ../../build/servo_angle_publisher/servo_angle_publisher.egg-info/dependency_links.txt
+[1.785s] writing entry points to ../../build/servo_angle_publisher/servo_angle_publisher.egg-info/entry_points.txt
+[1.786s] writing requirements to ../../build/servo_angle_publisher/servo_angle_publisher.egg-info/requires.txt
+[1.787s] writing top-level names to ../../build/servo_angle_publisher/servo_angle_publisher.egg-info/top_level.txt
+[1.839s] reading manifest file '../../build/servo_angle_publisher/servo_angle_publisher.egg-info/SOURCES.txt'
+[1.840s] writing manifest file '../../build/servo_angle_publisher/servo_angle_publisher.egg-info/SOURCES.txt'
+[1.841s] running build
+[1.841s] running build_py
+[1.842s] running install
+[1.853s] running install_lib
+[1.879s] running install_data
+[1.879s] copying config/fullbody_defaults.yaml -> /root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/share/servo_angle_publisher/config
+[1.879s] running install_egg_info
+[1.908s] removing '/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/lib/python3.12/site-packages/servo_angle_publisher-0.0.1-py3.12.egg-info' (and everything under it)
+[1.908s] Copying ../../build/servo_angle_publisher/servo_angle_publisher.egg-info to /root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/lib/python3.12/site-packages/servo_angle_publisher-0.0.1-py3.12.egg-info
+[1.910s] running install_scripts
+[2.102s] Installing joint_state_merger script to /root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/lib/servo_angle_publisher
+[2.102s] Installing servo_angle_node script to /root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/lib/servo_angle_publisher
+[2.102s] Installing servo_angle_node_rad script to /root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/lib/servo_angle_publisher
+[2.103s] writing list of installed files to '/root/Synthetic_data_collection/isaac_lab_data_collection/build/servo_angle_publisher/install.log'
+[2.240s] Invoked command in '/root/Synthetic_data_collection/isaac_lab_data_collection/src/servo_angle_publisher' returned '0': CONDA_PROMPT_MODIFIER=(exo_suit_jazzy_v2_3) PYTHONPATH=/root/Synthetic_data_collection/isaac_lab_data_collection/build/servo_angle_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/servo_angle_publisher build --build-base /root/Synthetic_data_collection/isaac_lab_data_collection/build/servo_angle_publisher/build install --record /root/Synthetic_data_collection/isaac_lab_data_collection/build/servo_angle_publisher/install.log --single-version-externally-managed install_data

@@ -1,1 +1,0 @@
-/root/Synthetic_data_collection/isaac_lab_data_collection/src/my_robot_description/launch/s45_display_launch.py

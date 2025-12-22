@@ -1,1 +1,3 @@
-/root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped/msg/RobotHandPosition.msg
+std_msgs/Header header
+uint8[] left_hand_position
+uint8[] right_hand_position

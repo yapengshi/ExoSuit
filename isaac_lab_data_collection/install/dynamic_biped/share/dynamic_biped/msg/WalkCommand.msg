@@ -1,1 +1,3 @@
-/root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped/msg/WalkCommand.msg
+# mode: 0->PositionCommand | 1->VelocityCommand
+uint8 mode
+float64[] values

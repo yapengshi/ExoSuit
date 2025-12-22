@@ -162,8 +162,8 @@ def calculate_delta(current, previous):
 
 def main():
     rospy.init_node("dual_arm_angle_publisher")
-    pub = rospy.Publisher("/kuavo_arm_traj", JointState, queue_size=10)
-    rate = rospy.Rate(10)
+    pub = rospy.Publisher("/joint_states", JointState, queue_size=10) #/joint_states #/kuavo_arm_traj
+    period = 0.1
 
     left_motor_comm = FeetechMotor(LEFT_USB_PORT)
     right_motor_comm = FeetechMotor(RIGHT_USB_PORT)
@@ -174,11 +174,19 @@ def main():
     left_motor_ids = [1, 2, 3, 4, 5, 6, 7]
     right_motor_ids = [8, 9, 10, 11, 12, 13, 14]
 
+ #   joint_names = [
+ #       "j1", "j2", "j3", "j4",
+ #       "j5", "j6", "j7",
+ #       "j8", "j9", "j10", "j11",
+ #       "j12", "j13", "j14"
+ #   ]
+
     joint_names = [
-        "j1", "j2", "j3", "j4",
-        "j5", "j6", "j7",
-        "j8", "j9", "j10", "j11",
-        "j12", "j13", "j14"
+        "zarm_r1_joint", "zarm_r2_joint", "zarm_r3_joint", "zarm_r4_joint",
+        "zarm_r5_joint", "zarm_r6_joint", "zarm_r7_joint",
+        "zarm_l1_joint", "zarm_l2_joint", "zarm_l3_joint", "zarm_l4_joint",
+        "zarm_l5_joint", "zarm_l6_joint", "zarm_l7_joint"
+
     ]
 
     previous_positions_left = left_motor_comm.read_positions(left_motor_ids)
@@ -248,7 +256,7 @@ def main():
                 previous_positions_left = current_positions_left
                 previous_positions_right = current_positions_right
 
-            rate.sleep()
+            time.sleep(period)
 
     except rospy.ROSInterruptException:
         pass

@@ -1,1 +1,4 @@
-/root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped/srv/SrvChangeJoller.srv
+int32 l_pos
+int32 r_pos
+---
+bool result

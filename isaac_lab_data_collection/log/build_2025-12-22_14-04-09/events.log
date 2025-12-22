@@ -1,0 +1,55 @@
+[0.000000] (-) TimerEvent: {}
+[0.000402] (-) JobUnselected: {'identifier': 'dynamic_biped'}
+[0.000660] (-) JobUnselected: {'identifier': 'my_robot_description'}
+[0.000779] (servo_angle_publisher) JobQueued: {'identifier': 'servo_angle_publisher', 'dependencies': OrderedDict()}
+[0.001101] (servo_angle_publisher) JobStarted: {'identifier': 'servo_angle_publisher'}
+[0.099559] (-) TimerEvent: {}
+[0.200075] (-) TimerEvent: {}
+[0.300616] (-) TimerEvent: {}
+[0.401157] (-) TimerEvent: {}
+[0.501690] (-) TimerEvent: {}
+[0.602276] (-) TimerEvent: {}
+[0.702771] (-) TimerEvent: {}
+[0.803225] (-) TimerEvent: {}
+[0.903687] (-) TimerEvent: {}
+[1.004210] (-) TimerEvent: {}
+[1.104914] (-) TimerEvent: {}
+[1.205553] (-) TimerEvent: {}
+[1.306042] (-) TimerEvent: {}
+[1.374086] (servo_angle_publisher) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/root/Synthetic_data_collection/isaac_lab_data_collection/build/servo_angle_publisher/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/root/Synthetic_data_collection/isaac_lab_data_collection/build/servo_angle_publisher', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(exo_suit_jazzy_v2_3)', 'HOSTNAME': 'rock-5c', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'CONDA_SHLVL': '2', 'OLDPWD': '/root/Synthetic_data_collection/isaac_lab_data_collection/src', 'ROS_PYTHON_VERSION': '3', '_CE_M': '', '_CONDA_ROOT': '/opt/conda', 'COLCON_PREFIX_PATH': '/root/Synthetic_data_collection/isaac_lab_data_collection/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', '_CE_CONDA': '', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/conda/envs/exo_suit_jazzy_v2_3/bin:/opt/conda/condabin:/opt/ros/jazzy/bin:/opt/conda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': '', 'LANG': 'en_US.UTF-8', 'CONDA_PREFIX_1': '/opt/conda', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'XML_CATALOG_FILES': 'file:///opt/conda/etc/xml/catalog file:///etc/xml/catalog', 'AMENT_PREFIX_PATH': '/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher:/root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description:/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/opt/conda/bin/python', 'DEBIAN_FRONTEND': 'noninteractive', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'exo_suit_jazzy_v2_3', '_CONDA_EXE': '/opt/conda/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/root/Synthetic_data_collection/isaac_lab_data_collection/build/servo_angle_publisher', 'LC_ALL': 'en_US.UTF-8', 'CONDA_EXE': '/opt/conda/bin/conda', 'PYTHONPATH': '/root/Synthetic_data_collection/isaac_lab_data_collection/build/servo_angle_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/lib/python3.12/site-packages:/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/lib/python3.12/site-packages:/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'CONDA_PREFIX': '/opt/conda/envs/exo_suit_jazzy_v2_3', 'TZ': 'UTC', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/Synthetic_data_collection/isaac_lab_data_collection/install/my_robot_description:/root/Synthetic_data_collection/isaac_lab_data_collection/install/dynamic_biped:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.406128] (-) TimerEvent: {}
+[1.506561] (-) TimerEvent: {}
+[1.607021] (-) TimerEvent: {}
+[1.707470] (-) TimerEvent: {}
+[1.807910] (-) TimerEvent: {}
+[1.825564] (servo_angle_publisher) StdoutLine: {'line': b'running develop\n'}
+[1.907995] (-) TimerEvent: {}
+[2.008411] (-) TimerEvent: {}
+[2.070870] (servo_angle_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[2.093948] (servo_angle_publisher) StdoutLine: {'line': b'writing servo_angle_publisher.egg-info/PKG-INFO\n'}
+[2.094927] (servo_angle_publisher) StdoutLine: {'line': b'writing dependency_links to servo_angle_publisher.egg-info/dependency_links.txt\n'}
+[2.095367] (servo_angle_publisher) StdoutLine: {'line': b'writing entry points to servo_angle_publisher.egg-info/entry_points.txt\n'}
+[2.095640] (servo_angle_publisher) StdoutLine: {'line': b'writing requirements to servo_angle_publisher.egg-info/requires.txt\n'}
+[2.095888] (servo_angle_publisher) StdoutLine: {'line': b'writing top-level names to servo_angle_publisher.egg-info/top_level.txt\n'}
+[2.108539] (-) TimerEvent: {}
+[2.147916] (servo_angle_publisher) StdoutLine: {'line': b"reading manifest file 'servo_angle_publisher.egg-info/SOURCES.txt'\n"}
+[2.149350] (servo_angle_publisher) StdoutLine: {'line': b"writing manifest file 'servo_angle_publisher.egg-info/SOURCES.txt'\n"}
+[2.175735] (servo_angle_publisher) StdoutLine: {'line': b'running build_ext\n'}
+[2.176929] (servo_angle_publisher) StdoutLine: {'line': b'Creating /root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/lib/python3.12/site-packages/servo-angle-publisher.egg-link (link to .)\n'}
+[2.178201] (servo_angle_publisher) StdoutLine: {'line': b'Installing joint_state_merger script to /root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/lib/servo_angle_publisher\n'}
+[2.178680] (servo_angle_publisher) StdoutLine: {'line': b'Installing servo_angle_node script to /root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/lib/servo_angle_publisher\n'}
+[2.178987] (servo_angle_publisher) StdoutLine: {'line': b'Installing servo_angle_node_rad script to /root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/lib/servo_angle_publisher\n'}
+[2.179419] (servo_angle_publisher) StdoutLine: {'line': b'\n'}
+[2.179583] (servo_angle_publisher) StdoutLine: {'line': b'Installed /root/Synthetic_data_collection/isaac_lab_data_collection/build/servo_angle_publisher\n'}
+[2.179686] (servo_angle_publisher) StdoutLine: {'line': b'running symlink_data\n'}
+[2.179823] (servo_angle_publisher) StdoutLine: {'line': b'symbolically linking /root/Synthetic_data_collection/isaac_lab_data_collection/build/servo_angle_publisher/resource/servo_angle_publisher -> /root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/share/ament_index/resource_index/packages\n'}
+[2.180125] (servo_angle_publisher) StdoutLine: {'line': b'symbolically linking /root/Synthetic_data_collection/isaac_lab_data_collection/build/servo_angle_publisher/package.xml -> /root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/share/servo_angle_publisher\n'}
+[2.180391] (servo_angle_publisher) StdoutLine: {'line': b'symbolically linking /root/Synthetic_data_collection/isaac_lab_data_collection/build/servo_angle_publisher/launch/servo_fullbody.launch.py -> /root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/share/servo_angle_publisher/launch\n'}
+[2.180600] (servo_angle_publisher) StdoutLine: {'line': b'symbolically linking /root/Synthetic_data_collection/isaac_lab_data_collection/build/servo_angle_publisher/launch/rad_servo_angle.launch.py -> /root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/share/servo_angle_publisher/launch\n'}
+[2.180799] (servo_angle_publisher) StdoutLine: {'line': b'symbolically linking /root/Synthetic_data_collection/isaac_lab_data_collection/build/servo_angle_publisher/launch/servo_angle.launch.py -> /root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/share/servo_angle_publisher/launch\n'}
+[2.181036] (servo_angle_publisher) StdoutLine: {'line': b'symbolically linking /root/Synthetic_data_collection/isaac_lab_data_collection/build/servo_angle_publisher/config/fullbody_defaults.yaml -> /root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/share/servo_angle_publisher/config\n'}
+[2.208892] (-) TimerEvent: {}
+[2.310216] (-) TimerEvent: {}
+[2.318281] (servo_angle_publisher) CommandEnded: {'returncode': 0}
+[2.335636] (servo_angle_publisher) JobEnded: {'identifier': 'servo_angle_publisher', 'rc': 0}
+[2.337007] (-) EventReactorShutdown: {}

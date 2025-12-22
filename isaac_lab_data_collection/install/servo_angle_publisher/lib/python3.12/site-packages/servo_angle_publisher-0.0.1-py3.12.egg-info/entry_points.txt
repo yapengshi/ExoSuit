@@ -1,2 +1,4 @@
 [console_scripts]
+joint_state_merger = servo_angle_publisher.joint_state_merger:main
 servo_angle_node = servo_angle_publisher.node:main
+servo_angle_node_rad = servo_angle_publisher.node_rad:main

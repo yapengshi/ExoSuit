@@ -1,1 +1,3 @@
-/root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped/msg/RobotQVTau.msg
+float64[] q
+float64[] v
+float64[] tau

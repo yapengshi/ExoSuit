@@ -4,10 +4,10 @@
 
 #include <string.h>
 
+#include "rosidl_typesupport_interface/macros.h"
 #include "dynamic_biped/msg/detail/robot_head_motion_data__struct.h"
 #include "dynamic_biped/msg/detail/robot_head_motion_data__type_support.h"
 #include "dynamic_biped/msg/detail/robot_head_motion_data__functions.h"
-#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

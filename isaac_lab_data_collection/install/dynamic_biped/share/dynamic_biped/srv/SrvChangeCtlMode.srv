@@ -1,1 +1,4 @@
-/root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped/srv/SrvChangeCtlMode.srv
+uint8 master_id
+uint8 control_mode
+---
+uint8 control_mode

@@ -1,1 +1,76 @@
-/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_generator_type_description/dynamic_biped/msg/QuaternionArray.json
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "dynamic_biped/msg/QuaternionArray",
+      "fields": [
+        {
+          "name": "quaternions",
+          "type": {
+            "type_id": 145,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "geometry_msgs/msg/Quaternion"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "geometry_msgs/msg/Quaternion",
+        "fields": [
+          {
+            "name": "x",
+            "type": {
+              "type_id": 11,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": "0.0"
+          },
+          {
+            "name": "y",
+            "type": {
+              "type_id": 11,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": "0.0"
+          },
+          {
+            "name": "z",
+            "type": {
+              "type_id": 11,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": "0.0"
+          },
+          {
+            "name": "w",
+            "type": {
+              "type_id": 11,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": "1.0"
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "dynamic_biped/msg/QuaternionArray",
+      "hash_string": "RIHS01_7bb73c1f7aa20854fe92be353c0faff5ca15e949c20edf82ceb79643822c4819"
+    },
+    {
+      "type_name": "geometry_msgs/msg/Quaternion",
+      "hash_string": "RIHS01_8a765f66778c8ff7c8ab94afcc590a2ed5325a1d9a076ffff38fbce36f458684"
+    }
+  ]
+}

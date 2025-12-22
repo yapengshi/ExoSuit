@@ -1,1 +1,1 @@
-/root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped/msg/RobotHeadMotionData.msg
+float64[] joint_data

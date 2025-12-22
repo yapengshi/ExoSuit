@@ -1,1 +1,58 @@
-/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_typesupport_introspection_c/dynamic_biped/srv/detail/srv_clear_position_cmd__rosidl_typesupport_introspection_c.h
+// generated from rosidl_typesupport_introspection_c/resource/idl__rosidl_typesupport_introspection_c.h.em
+// with input from dynamic_biped:srv/SrvClearPositionCMD.idl
+// generated code does not contain a copyright notice
+
+#ifndef DYNAMIC_BIPED__SRV__DETAIL__SRV_CLEAR_POSITION_CMD__ROSIDL_TYPESUPPORT_INTROSPECTION_C_H_
+#define DYNAMIC_BIPED__SRV__DETAIL__SRV_CLEAR_POSITION_CMD__ROSIDL_TYPESUPPORT_INTROSPECTION_C_H_
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+
+#include "rosidl_runtime_c/message_type_support_struct.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "dynamic_biped/msg/rosidl_typesupport_introspection_c__visibility_control.h"
+
+ROSIDL_TYPESUPPORT_INTROSPECTION_C_PUBLIC_dynamic_biped
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, dynamic_biped, srv, SrvClearPositionCMD_Request)();
+
+// already included above
+// #include "rosidl_runtime_c/message_type_support_struct.h"
+// already included above
+// #include "rosidl_typesupport_interface/macros.h"
+// already included above
+// #include "dynamic_biped/msg/rosidl_typesupport_introspection_c__visibility_control.h"
+
+ROSIDL_TYPESUPPORT_INTROSPECTION_C_PUBLIC_dynamic_biped
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, dynamic_biped, srv, SrvClearPositionCMD_Response)();
+
+// already included above
+// #include "rosidl_runtime_c/message_type_support_struct.h"
+// already included above
+// #include "rosidl_typesupport_interface/macros.h"
+// already included above
+// #include "dynamic_biped/msg/rosidl_typesupport_introspection_c__visibility_control.h"
+
+ROSIDL_TYPESUPPORT_INTROSPECTION_C_PUBLIC_dynamic_biped
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, dynamic_biped, srv, SrvClearPositionCMD_Event)();
+
+#include "rosidl_runtime_c/service_type_support_struct.h"
+// already included above
+// #include "rosidl_typesupport_interface/macros.h"
+// already included above
+// #include "dynamic_biped/msg/rosidl_typesupport_introspection_c__visibility_control.h"
+
+ROSIDL_TYPESUPPORT_INTROSPECTION_C_PUBLIC_dynamic_biped
+const rosidl_service_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_introspection_c, dynamic_biped, srv, SrvClearPositionCMD)();
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // DYNAMIC_BIPED__SRV__DETAIL__SRV_CLEAR_POSITION_CMD__ROSIDL_TYPESUPPORT_INTROSPECTION_C_H_

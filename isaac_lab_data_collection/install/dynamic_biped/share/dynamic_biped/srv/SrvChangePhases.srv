@@ -1,1 +1,5 @@
-/root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped/srv/SrvChangePhases.srv
+uint8 master_id
+string state_req
+string sub_state
+---
+int16 state_res

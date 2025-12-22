@@ -1,1 +1,1 @@
-/root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped/msg/HandRotationEular.msg
+geometry_msgs/Vector3[] euler_angles

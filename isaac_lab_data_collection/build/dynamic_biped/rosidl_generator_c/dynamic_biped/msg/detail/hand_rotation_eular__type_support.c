@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "dynamic_biped/msg/detail/hand_rotation_eular__functions.h"
-#include "dynamic_biped/msg/detail/hand_rotation_eular__struct.h"
 #include "dynamic_biped/msg/detail/hand_rotation_eular__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "dynamic_biped/msg/detail/hand_rotation_eular__struct.h"
 
 #ifdef __cplusplus
 extern "C"

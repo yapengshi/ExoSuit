@@ -1,1 +1,6 @@
-/root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped/msg/ECJointMotordata.msg
+int32 l_pos_pitch 
+int32 l_pos_yaw
+int32 l_pos_end
+int32 r_pos_pitch 
+int32 r_pos_yaw
+int32 r_pos_end

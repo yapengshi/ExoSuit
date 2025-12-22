@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_dynamic_biped_egg.dir/compiler_depen
 include CMakeFiles/ament_cmake_python_build_dynamic_biped_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_dynamic_biped_egg:
-	cd /root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/ament_cmake_python/dynamic_biped && /opt/conda/envs/exo_suit_jazzy_v2_2/bin/python3 setup.py egg_info
+	cd /root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/ament_cmake_python/dynamic_biped && /opt/conda/envs/exo_suit_jazzy_v2_3/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_dynamic_biped_egg: CMakeFiles/ament_cmake_python_build_dynamic_biped_egg
 ament_cmake_python_build_dynamic_biped_egg: CMakeFiles/ament_cmake_python_build_dynamic_biped_egg.dir/build.make

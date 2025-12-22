@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "dynamic_biped/srv/detail/srv_mani_inst__type_support.h"
-#include "dynamic_biped/srv/detail/srv_mani_inst__functions.h"
-#include "dynamic_biped/srv/detail/srv_mani_inst__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "dynamic_biped/srv/detail/srv_mani_inst__functions.h"
+#include "dynamic_biped/srv/detail/srv_mani_inst__type_support.h"
+#include "dynamic_biped/srv/detail/srv_mani_inst__struct.h"
 
 #ifdef __cplusplus
 extern "C"

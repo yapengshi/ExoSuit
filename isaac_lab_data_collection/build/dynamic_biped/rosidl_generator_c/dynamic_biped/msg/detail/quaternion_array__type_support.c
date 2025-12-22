@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "dynamic_biped/msg/detail/quaternion_array__struct.h"
-#include "dynamic_biped/msg/detail/quaternion_array__functions.h"
-#include "dynamic_biped/msg/detail/quaternion_array__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "dynamic_biped/msg/detail/quaternion_array__type_support.h"
+#include "dynamic_biped/msg/detail/quaternion_array__functions.h"
+#include "dynamic_biped/msg/detail/quaternion_array__struct.h"
 
 #ifdef __cplusplus
 extern "C"

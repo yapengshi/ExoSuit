@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "dynamic_biped/srv/detail/srv_change_phases__struct.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "dynamic_biped/srv/detail/srv_change_phases__functions.h"
 #include "dynamic_biped/srv/detail/srv_change_phases__type_support.h"
-#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

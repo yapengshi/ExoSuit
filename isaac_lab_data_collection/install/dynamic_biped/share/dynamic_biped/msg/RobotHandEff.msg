@@ -1,1 +1,2 @@
-/root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped/msg/RobotHandEff.msg
+std_msgs/Header header
+float32[] data

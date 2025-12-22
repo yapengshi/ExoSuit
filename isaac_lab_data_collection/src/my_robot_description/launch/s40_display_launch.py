@@ -13,12 +13,6 @@ def generate_launch_description():
     with open(urdf_file, 'r') as f:
         robot_description = f.read()
 
-    joint_state_publisher = Node(
-        package='joint_state_publisher_gui',
-        executable='joint_state_publisher_gui',
-        name='joint_state_publisher'
-    )
-
     robot_state_publisher = Node(
         package='robot_state_publisher',
         executable='robot_state_publisher',
@@ -31,8 +25,8 @@ def generate_launch_description():
         executable='static_transform_publisher',
         name='world_to_base_link',
         arguments=[
-            '0', '0', '0.88',   # x y z
-            '0', '0', '0',      # roll pitch yaw
+            '0', '0', '0.88',
+            '0', '0', '0',
             'world', 'base_link'
         ]
     )
@@ -44,7 +38,6 @@ def generate_launch_description():
     )
 
     return LaunchDescription([
-        joint_state_publisher,
         robot_state_publisher,
         static_tf,
         rviz

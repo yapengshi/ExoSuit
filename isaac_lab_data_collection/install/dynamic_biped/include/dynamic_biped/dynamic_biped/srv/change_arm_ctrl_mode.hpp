@@ -1,1 +1,12 @@
-/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_generator_cpp/dynamic_biped/srv/change_arm_ctrl_mode.hpp
+// generated from rosidl_generator_cpp/resource/idl.hpp.em
+// generated code does not contain a copyright notice
+
+#ifndef DYNAMIC_BIPED__SRV__CHANGE_ARM_CTRL_MODE_HPP_
+#define DYNAMIC_BIPED__SRV__CHANGE_ARM_CTRL_MODE_HPP_
+
+#include "dynamic_biped/srv/detail/change_arm_ctrl_mode__struct.hpp"
+#include "dynamic_biped/srv/detail/change_arm_ctrl_mode__builder.hpp"
+#include "dynamic_biped/srv/detail/change_arm_ctrl_mode__traits.hpp"
+#include "dynamic_biped/srv/detail/change_arm_ctrl_mode__type_support.hpp"
+
+#endif  // DYNAMIC_BIPED__SRV__CHANGE_ARM_CTRL_MODE_HPP_

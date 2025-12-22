@@ -1,1 +1,4 @@
-/root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped/msg/RobotArmQVVD.msg
+std_msgs/Header header
+float64[] q
+float64[] v
+float64[] vd

@@ -27,6 +27,7 @@ CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_bipe
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
  /opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h \
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
+ /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
  /root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_generator_c/dynamic_biped/srv/detail/srv_change_phases__functions.h \
  /usr/include/stdlib.h /usr/include/aarch64-linux-gnu/bits/waitflags.h \
  /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
@@ -69,7 +70,6 @@ CMakeFiles/dynamic_biped__rosidl_generator_c.dir/rosidl_generator_c/dynamic_bipe
  /opt/ros/jazzy/include/rcutils/rcutils/visibility_control_macros.h \
  /opt/ros/jazzy/include/rcutils/rcutils/sha256.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
- /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
  /root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_generator_c/dynamic_biped/msg/rosidl_generator_c__visibility_control.h \
  /root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_generator_c/dynamic_biped/srv/detail/srv_change_phases__type_support.h

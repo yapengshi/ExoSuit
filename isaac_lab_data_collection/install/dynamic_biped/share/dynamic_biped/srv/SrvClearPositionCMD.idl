@@ -1,1 +1,15 @@
-/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_adapter/dynamic_biped/srv/SrvClearPositionCMD.idl
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dynamic_biped/srv/SrvClearPositionCMD.srv
+// generated code does not contain a copyright notice
+
+
+module dynamic_biped {
+  module srv {
+    struct SrvClearPositionCMD_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct SrvClearPositionCMD_Response {
+      int8 result;
+    };
+  };
+};

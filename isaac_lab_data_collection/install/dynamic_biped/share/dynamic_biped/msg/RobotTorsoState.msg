@@ -1,1 +1,6 @@
-/root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped/msg/RobotTorsoState.msg
+geometry_msgs/Vector3 torso_r
+geometry_msgs/Vector3 torso_rd
+geometry_msgs/Vector3 torso_rdd
+geometry_msgs/Vector3 r
+geometry_msgs/Vector3 rd
+geometry_msgs/Vector3 rdd

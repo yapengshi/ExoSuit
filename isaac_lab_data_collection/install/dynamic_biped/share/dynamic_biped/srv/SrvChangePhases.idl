@@ -1,1 +1,19 @@
-/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_adapter/dynamic_biped/srv/SrvChangePhases.idl
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dynamic_biped/srv/SrvChangePhases.srv
+// generated code does not contain a copyright notice
+
+
+module dynamic_biped {
+  module srv {
+    struct SrvChangePhases_Request {
+      uint8 master_id;
+
+      string state_req;
+
+      string sub_state;
+    };
+    struct SrvChangePhases_Response {
+      int16 state_res;
+    };
+  };
+};

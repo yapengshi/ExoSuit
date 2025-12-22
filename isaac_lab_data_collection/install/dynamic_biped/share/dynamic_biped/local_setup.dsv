@@ -1,1 +1,4 @@
-/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/ament_cmake_environment_hooks/local_setup.dsv
+source;share/dynamic_biped/environment/ament_prefix_path.sh
+source;share/dynamic_biped/environment/library_path.sh
+source;share/dynamic_biped/environment/path.sh
+source;share/dynamic_biped/environment/pythonpath.sh

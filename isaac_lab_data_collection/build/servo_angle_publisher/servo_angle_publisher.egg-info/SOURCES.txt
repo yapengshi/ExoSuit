@@ -8,7 +8,12 @@ setup.py
 ../../build/servo_angle_publisher/servo_angle_publisher.egg-info/requires.txt
 ../../build/servo_angle_publisher/servo_angle_publisher.egg-info/top_level.txt
 ../../build/servo_angle_publisher/servo_angle_publisher.egg-info/zip-safe
+config/fullbody_defaults.yaml
+launch/rad_servo_angle.launch.py
 launch/servo_angle.launch.py
+launch/servo_fullbody.launch.py
 resource/servo_angle_publisher
 servo_angle_publisher/__init__.py
+servo_angle_publisher/joint_state_merger.py
 servo_angle_publisher/node.py
+servo_angle_publisher/node_rad.py

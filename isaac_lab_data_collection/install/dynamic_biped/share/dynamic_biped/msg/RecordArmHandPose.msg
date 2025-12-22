@@ -1,1 +1,3 @@
-/root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped/msg/RecordArmHandPose.msg
+std_msgs/Header header
+ArmHandPose left_pose
+ArmHandPose right_pose

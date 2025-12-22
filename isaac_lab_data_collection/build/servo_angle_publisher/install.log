@@ -1,10 +1,17 @@
+/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/lib/python3.12/site-packages/servo_angle_publisher/joint_state_merger.py
 /root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/lib/python3.12/site-packages/servo_angle_publisher/__init__.py
 /root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/lib/python3.12/site-packages/servo_angle_publisher/node.py
+/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/lib/python3.12/site-packages/servo_angle_publisher/node_rad.py
+/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/lib/python3.12/site-packages/servo_angle_publisher/__pycache__/joint_state_merger.cpython-312.pyc
 /root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/lib/python3.12/site-packages/servo_angle_publisher/__pycache__/__init__.cpython-312.pyc
 /root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/lib/python3.12/site-packages/servo_angle_publisher/__pycache__/node.cpython-312.pyc
+/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/lib/python3.12/site-packages/servo_angle_publisher/__pycache__/node_rad.cpython-312.pyc
 /root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/share/ament_index/resource_index/packages/servo_angle_publisher
 /root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/share/servo_angle_publisher/package.xml
+/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/share/servo_angle_publisher/launch/servo_fullbody.launch.py
+/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/share/servo_angle_publisher/launch/rad_servo_angle.launch.py
 /root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/share/servo_angle_publisher/launch/servo_angle.launch.py
+/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/share/servo_angle_publisher/config/fullbody_defaults.yaml
 /root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/lib/python3.12/site-packages/servo_angle_publisher-0.0.1-py3.12.egg-info/top_level.txt
 /root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/lib/python3.12/site-packages/servo_angle_publisher-0.0.1-py3.12.egg-info/entry_points.txt
 /root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/lib/python3.12/site-packages/servo_angle_publisher-0.0.1-py3.12.egg-info/PKG-INFO
@@ -12,4 +19,6 @@
 /root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/lib/python3.12/site-packages/servo_angle_publisher-0.0.1-py3.12.egg-info/zip-safe
 /root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/lib/python3.12/site-packages/servo_angle_publisher-0.0.1-py3.12.egg-info/dependency_links.txt
 /root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/lib/python3.12/site-packages/servo_angle_publisher-0.0.1-py3.12.egg-info/SOURCES.txt
+/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/lib/servo_angle_publisher/joint_state_merger
 /root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/lib/servo_angle_publisher/servo_angle_node
+/root/Synthetic_data_collection/isaac_lab_data_collection/install/servo_angle_publisher/lib/servo_angle_publisher/servo_angle_node_rad

@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "dynamic_biped/srv/detail/change_ambac_ctrl_mode__type_support.h"
 #include "dynamic_biped/srv/detail/change_ambac_ctrl_mode__struct.h"
-#include "dynamic_biped/srv/detail/change_ambac_ctrl_mode__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "dynamic_biped/srv/detail/change_ambac_ctrl_mode__type_support.h"
+#include "dynamic_biped/srv/detail/change_ambac_ctrl_mode__functions.h"
 
 #ifdef __cplusplus
 extern "C"

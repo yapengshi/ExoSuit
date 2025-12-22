@@ -164,7 +164,7 @@ rosidl_typesupport_c/dynamic_biped/msg/arm_hand_pose__type_support.cpp: /opt/ros
 rosidl_typesupport_c/dynamic_biped/msg/arm_hand_pose__type_support.cpp: /opt/ros/jazzy/share/geometry_msgs/msg/WrenchStamped.idl
 rosidl_typesupport_c/dynamic_biped/msg/arm_hand_pose__type_support.cpp: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C type support dispatch for ROS interfaces"
-	/opt/conda/envs/exo_suit_jazzy_v2_2/bin/python3 /opt/ros/jazzy/lib/rosidl_typesupport_c/rosidl_typesupport_c --generator-arguments-file /root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_typesupport_c__arguments.json --typesupports rosidl_typesupport_fastrtps_c rosidl_typesupport_introspection_c
+	/opt/conda/envs/exo_suit_jazzy_v2_3/bin/python3 /opt/ros/jazzy/lib/rosidl_typesupport_c/rosidl_typesupport_c --generator-arguments-file /root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_typesupport_c__arguments.json --typesupports rosidl_typesupport_fastrtps_c rosidl_typesupport_introspection_c
 
 rosidl_typesupport_c/dynamic_biped/msg/ec_joint_motordata__type_support.cpp: rosidl_typesupport_c/dynamic_biped/msg/arm_hand_pose__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/dynamic_biped/msg/ec_joint_motordata__type_support.cpp

@@ -1,1 +1,46 @@
-/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_generator_type_description/dynamic_biped/msg/RobotQVTau.json
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "dynamic_biped/msg/RobotQVTau",
+      "fields": [
+        {
+          "name": "q",
+          "type": {
+            "type_id": 155,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "v",
+          "type": {
+            "type_id": 155,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "tau",
+          "type": {
+            "type_id": 155,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "dynamic_biped/msg/RobotQVTau",
+      "hash_string": "RIHS01_ab21e3041d47c3fdf9ac173553c8fa3ccd752c295400ddb1fd3faa140e1b5f43"
+    }
+  ]
+}

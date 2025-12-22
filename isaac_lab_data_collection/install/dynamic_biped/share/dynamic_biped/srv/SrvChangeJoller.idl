@@ -1,1 +1,17 @@
-/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_adapter/dynamic_biped/srv/SrvChangeJoller.idl
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dynamic_biped/srv/SrvChangeJoller.srv
+// generated code does not contain a copyright notice
+
+
+module dynamic_biped {
+  module srv {
+    struct SrvChangeJoller_Request {
+      int32 l_pos;
+
+      int32 r_pos;
+    };
+    struct SrvChangeJoller_Response {
+      boolean result;
+    };
+  };
+};

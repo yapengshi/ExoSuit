@@ -1,1 +1,2 @@
-/root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped/msg/RobotPhase.msg
+uint8 main_phase
+uint8 sub_phase

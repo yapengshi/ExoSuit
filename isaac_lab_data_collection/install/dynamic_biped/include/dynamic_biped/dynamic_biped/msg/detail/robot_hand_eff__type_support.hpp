@@ -1,1 +1,31 @@
-/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_generator_cpp/dynamic_biped/msg/detail/robot_hand_eff__type_support.hpp
+// generated from rosidl_generator_cpp/resource/idl__type_support.hpp.em
+// with input from dynamic_biped:msg/RobotHandEff.idl
+// generated code does not contain a copyright notice
+
+#ifndef DYNAMIC_BIPED__MSG__DETAIL__ROBOT_HAND_EFF__TYPE_SUPPORT_HPP_
+#define DYNAMIC_BIPED__MSG__DETAIL__ROBOT_HAND_EFF__TYPE_SUPPORT_HPP_
+
+#include "rosidl_typesupport_interface/macros.h"
+
+#include "dynamic_biped/msg/rosidl_generator_cpp__visibility_control.hpp"
+
+#include "rosidl_typesupport_cpp/message_type_support.hpp"
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+// Forward declare the get type support functions for this type.
+ROSIDL_GENERATOR_CPP_PUBLIC_dynamic_biped
+const rosidl_message_type_support_t *
+  ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+  rosidl_typesupport_cpp,
+  dynamic_biped,
+  msg,
+  RobotHandEff
+)();
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // DYNAMIC_BIPED__MSG__DETAIL__ROBOT_HAND_EFF__TYPE_SUPPORT_HPP_

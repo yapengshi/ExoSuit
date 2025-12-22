@@ -1,1 +1,36 @@
-/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_generator_c/dynamic_biped/msg/detail/quaternion_array__type_support.h
+// generated from rosidl_generator_c/resource/idl__type_support.h.em
+// with input from dynamic_biped:msg/QuaternionArray.idl
+// generated code does not contain a copyright notice
+
+// IWYU pragma: private, include "dynamic_biped/msg/quaternion_array.h"
+
+
+#ifndef DYNAMIC_BIPED__MSG__DETAIL__QUATERNION_ARRAY__TYPE_SUPPORT_H_
+#define DYNAMIC_BIPED__MSG__DETAIL__QUATERNION_ARRAY__TYPE_SUPPORT_H_
+
+#include "rosidl_typesupport_interface/macros.h"
+
+#include "dynamic_biped/msg/rosidl_generator_c__visibility_control.h"
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+#include "rosidl_runtime_c/message_type_support_struct.h"
+
+// Forward declare the get type support functions for this type.
+ROSIDL_GENERATOR_C_PUBLIC_dynamic_biped
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+  rosidl_typesupport_c,
+  dynamic_biped,
+  msg,
+  QuaternionArray
+)(void);
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // DYNAMIC_BIPED__MSG__DETAIL__QUATERNION_ARRAY__TYPE_SUPPORT_H_

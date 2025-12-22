@@ -1,1 +1,4 @@
-/root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped/srv/ChangeAMBACCtrlMode.srv
+bool control_mode
+---
+bool result
+

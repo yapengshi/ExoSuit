@@ -1,1 +1,36 @@
-/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_generator_type_description/dynamic_biped/msg/WalkCommand.json
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "dynamic_biped/msg/WalkCommand",
+      "fields": [
+        {
+          "name": "mode",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "values",
+          "type": {
+            "type_id": 155,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "dynamic_biped/msg/WalkCommand",
+      "hash_string": "RIHS01_9250ef0a6be64694a50bbbba4a30b622d5a7f59ca7218a411dc44b56f06f3108"
+    }
+  ]
+}
