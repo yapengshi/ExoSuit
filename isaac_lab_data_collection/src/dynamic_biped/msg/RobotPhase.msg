@@ -1,0 +1,2 @@
+uint8 main_phase
+uint8 sub_phase

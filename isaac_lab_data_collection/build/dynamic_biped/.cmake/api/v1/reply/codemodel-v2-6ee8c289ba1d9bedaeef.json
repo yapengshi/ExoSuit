@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-74d4ce68fff64c63adc8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "dynamic_biped__py",
+					"jsonFile" : "directory-dynamic_biped__py-2080a49598291248cdd0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/dynamic_biped__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "dynamic_biped",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_dynamic_biped_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_dynamic_biped_egg-854ebb481a087ae53c33.json",
+					"name" : "ament_cmake_python_build_dynamic_biped_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_dynamic_biped::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_dynamic_biped-fc6da77ce7831099a804.json",
+					"name" : "ament_cmake_python_copy_dynamic_biped",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamic_biped::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamic_biped-e77bd1711b75f3ac16f9.json",
+					"name" : "dynamic_biped",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamic_biped__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamic_biped__cpp-be840d978dd555ea579e.json",
+					"name" : "dynamic_biped__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "dynamic_biped__py::@16401979f83e8cbbb333",
+					"jsonFile" : "target-dynamic_biped__py-e6ccd71d037c4a6856fb.json",
+					"name" : "dynamic_biped__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamic_biped__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamic_biped__rosidl_generator_c-e562f858be97a64afa0f.json",
+					"name" : "dynamic_biped__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamic_biped__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamic_biped__rosidl_generator_py-f02a004c6edfa8899a83.json",
+					"name" : "dynamic_biped__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamic_biped__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamic_biped__rosidl_generator_type_description-29dd4e1c22bb03c59c87.json",
+					"name" : "dynamic_biped__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamic_biped__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamic_biped__rosidl_typesupport_c-58bb6a4cffd7acad2746.json",
+					"name" : "dynamic_biped__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamic_biped__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamic_biped__rosidl_typesupport_cpp-3aebd29dde729f877d43.json",
+					"name" : "dynamic_biped__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamic_biped__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamic_biped__rosidl_typesupport_fastrtps_c-98b200c5359f7507aef7.json",
+					"name" : "dynamic_biped__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamic_biped__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamic_biped__rosidl_typesupport_fastrtps_cpp-c34c30d6982b537ddb6d.json",
+					"name" : "dynamic_biped__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamic_biped__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamic_biped__rosidl_typesupport_introspection_c-fcd16fb55ed33fb446e6.json",
+					"name" : "dynamic_biped__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamic_biped__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamic_biped__rosidl_typesupport_introspection_cpp-d2a48d1f5807888a6ca2.json",
+					"name" : "dynamic_biped__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamic_biped_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamic_biped_s__rosidl_typesupport_c-d94b93fe06f4500635f5.json",
+					"name" : "dynamic_biped_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamic_biped_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamic_biped_s__rosidl_typesupport_fastrtps_c-1341c62cbc7bc7e398c5.json",
+					"name" : "dynamic_biped_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamic_biped_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamic_biped_s__rosidl_typesupport_introspection_c-7558ee2f2055230c9c41.json",
+					"name" : "dynamic_biped_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamic_biped_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamic_biped_uninstall-f1a13083607becf6fe5d.json",
+					"name" : "dynamic_biped_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-668c8372e389917db1c5.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped",
+		"source" : "/root/Synthetic_data_collection/isaac_lab_data_collection/src/dynamic_biped"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

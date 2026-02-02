@@ -1,0 +1,79 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/dynamic_biped__py/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "dynamic_biped::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "dynamic_biped__py::@16401979f83e8cbbb333",
+	"name" : "dynamic_biped__py",
+	"paths" : 
+	{
+		"build" : "dynamic_biped__py",
+		"source" : "/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/dynamic_biped__py"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/dynamic_biped__py/CMakeFiles/dynamic_biped__py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/dynamic_biped__py/CMakeFiles/dynamic_biped__py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/rosidl_generator_py/dynamic_biped/_dynamic_biped_s.ep.rosidl_typesupport_fastrtps_c.c.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

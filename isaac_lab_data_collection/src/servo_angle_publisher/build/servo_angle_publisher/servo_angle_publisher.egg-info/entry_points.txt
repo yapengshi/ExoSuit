@@ -1,0 +1,2 @@
+[console_scripts]
+servo_angle_node = servo_angle_publisher.node:main

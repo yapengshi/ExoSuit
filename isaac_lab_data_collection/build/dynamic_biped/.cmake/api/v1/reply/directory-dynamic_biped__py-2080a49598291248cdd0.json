@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "dynamic_biped__py",
+		"source" : "/root/Synthetic_data_collection/isaac_lab_data_collection/build/dynamic_biped/dynamic_biped__py"
+	}
+}

@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from dynamic_biped/msg/QuaternionArray.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Quaternion.idl"
+
+module dynamic_biped {
+  module msg {
+    struct QuaternionArray {
+      sequence<geometry_msgs::msg::Quaternion> quaternions;
+    };
+  };
+};

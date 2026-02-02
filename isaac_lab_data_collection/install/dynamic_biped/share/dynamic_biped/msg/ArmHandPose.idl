@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from dynamic_biped/msg/ArmHandPose.msg
+// generated code does not contain a copyright notice
+
+
+module dynamic_biped {
+  module msg {
+    typedef double double__3[3];
+    typedef double double__4[4];
+    typedef double double__7[7];
+    struct ArmHandPose {
+      double__3 pos_xyz;
+
+      double__4 quat_xyzw;
+
+      double__7 joint_angles;
+    };
+  };
+};

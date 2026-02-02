@@ -1,0 +1,39 @@
+[1.372s] Invoking command in '/root/Synthetic_data_collection/isaac_lab_data_collection/src/servo_angle_publisher': CONDA_PROMPT_MODIFIER=(exo_suit_jazzy_v2_3) PYTHONPATH=/root/Synthetic_data_collection/isaac_lab_data_collection/src/servo_angle_publisher/build/servo_angle_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/Synthetic_data_collection/isaac_lab_data_collection/src/servo_angle_publisher/install/servo_angle_publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/servo_angle_publisher build --build-base /root/Synthetic_data_collection/isaac_lab_data_collection/src/servo_angle_publisher/build/servo_angle_publisher/build install --record /root/Synthetic_data_collection/isaac_lab_data_collection/src/servo_angle_publisher/build/servo_angle_publisher/install.log --single-version-externally-managed install_data
+[1.742s] running egg_info
+[1.742s] creating build/servo_angle_publisher/servo_angle_publisher.egg-info
+[1.765s] writing build/servo_angle_publisher/servo_angle_publisher.egg-info/PKG-INFO
+[1.765s] writing dependency_links to build/servo_angle_publisher/servo_angle_publisher.egg-info/dependency_links.txt
+[1.765s] writing entry points to build/servo_angle_publisher/servo_angle_publisher.egg-info/entry_points.txt
+[1.766s] writing requirements to build/servo_angle_publisher/servo_angle_publisher.egg-info/requires.txt
+[1.766s] writing top-level names to build/servo_angle_publisher/servo_angle_publisher.egg-info/top_level.txt
+[1.766s] writing manifest file 'build/servo_angle_publisher/servo_angle_publisher.egg-info/SOURCES.txt'
+[1.813s] reading manifest file 'build/servo_angle_publisher/servo_angle_publisher.egg-info/SOURCES.txt'
+[1.814s] writing manifest file 'build/servo_angle_publisher/servo_angle_publisher.egg-info/SOURCES.txt'
+[1.814s] running build
+[1.815s] running build_py
+[1.815s] creating /root/Synthetic_data_collection/isaac_lab_data_collection/src/servo_angle_publisher/build/servo_angle_publisher/build
+[1.815s] creating /root/Synthetic_data_collection/isaac_lab_data_collection/src/servo_angle_publisher/build/servo_angle_publisher/build/lib
+[1.815s] creating /root/Synthetic_data_collection/isaac_lab_data_collection/src/servo_angle_publisher/build/servo_angle_publisher/build/lib/servo_angle_publisher
+[1.815s] copying servo_angle_publisher/__init__.py -> /root/Synthetic_data_collection/isaac_lab_data_collection/src/servo_angle_publisher/build/servo_angle_publisher/build/lib/servo_angle_publisher
+[1.815s] copying servo_angle_publisher/node.py -> /root/Synthetic_data_collection/isaac_lab_data_collection/src/servo_angle_publisher/build/servo_angle_publisher/build/lib/servo_angle_publisher
+[1.816s] running install
+[1.826s] running install_lib
+[1.850s] creating /root/Synthetic_data_collection/isaac_lab_data_collection/src/servo_angle_publisher/install/servo_angle_publisher/lib/python3.12/site-packages/servo_angle_publisher
+[1.850s] copying /root/Synthetic_data_collection/isaac_lab_data_collection/src/servo_angle_publisher/build/servo_angle_publisher/build/lib/servo_angle_publisher/__init__.py -> /root/Synthetic_data_collection/isaac_lab_data_collection/src/servo_angle_publisher/install/servo_angle_publisher/lib/python3.12/site-packages/servo_angle_publisher
+[1.850s] copying /root/Synthetic_data_collection/isaac_lab_data_collection/src/servo_angle_publisher/build/servo_angle_publisher/build/lib/servo_angle_publisher/node.py -> /root/Synthetic_data_collection/isaac_lab_data_collection/src/servo_angle_publisher/install/servo_angle_publisher/lib/python3.12/site-packages/servo_angle_publisher
+[1.852s] byte-compiling /root/Synthetic_data_collection/isaac_lab_data_collection/src/servo_angle_publisher/install/servo_angle_publisher/lib/python3.12/site-packages/servo_angle_publisher/__init__.py to __init__.cpython-312.pyc
+[1.852s] byte-compiling /root/Synthetic_data_collection/isaac_lab_data_collection/src/servo_angle_publisher/install/servo_angle_publisher/lib/python3.12/site-packages/servo_angle_publisher/node.py to node.cpython-312.pyc
+[1.855s] running install_data
+[1.855s] creating /root/Synthetic_data_collection/isaac_lab_data_collection/src/servo_angle_publisher/install/servo_angle_publisher/share/ament_index
+[1.856s] creating /root/Synthetic_data_collection/isaac_lab_data_collection/src/servo_angle_publisher/install/servo_angle_publisher/share/ament_index/resource_index
+[1.856s] creating /root/Synthetic_data_collection/isaac_lab_data_collection/src/servo_angle_publisher/install/servo_angle_publisher/share/ament_index/resource_index/packages
+[1.856s] copying resource/servo_angle_publisher -> /root/Synthetic_data_collection/isaac_lab_data_collection/src/servo_angle_publisher/install/servo_angle_publisher/share/ament_index/resource_index/packages
+[1.856s] copying package.xml -> /root/Synthetic_data_collection/isaac_lab_data_collection/src/servo_angle_publisher/install/servo_angle_publisher/share/servo_angle_publisher
+[1.856s] creating /root/Synthetic_data_collection/isaac_lab_data_collection/src/servo_angle_publisher/install/servo_angle_publisher/share/servo_angle_publisher/launch
+[1.857s] copying launch/servo_angle.launch.py -> /root/Synthetic_data_collection/isaac_lab_data_collection/src/servo_angle_publisher/install/servo_angle_publisher/share/servo_angle_publisher/launch
+[1.857s] running install_egg_info
+[1.883s] Copying build/servo_angle_publisher/servo_angle_publisher.egg-info to /root/Synthetic_data_collection/isaac_lab_data_collection/src/servo_angle_publisher/install/servo_angle_publisher/lib/python3.12/site-packages/servo_angle_publisher-0.0.1-py3.12.egg-info
+[1.884s] running install_scripts
+[2.063s] Installing servo_angle_node script to /root/Synthetic_data_collection/isaac_lab_data_collection/src/servo_angle_publisher/install/servo_angle_publisher/lib/servo_angle_publisher
+[2.064s] writing list of installed files to '/root/Synthetic_data_collection/isaac_lab_data_collection/src/servo_angle_publisher/build/servo_angle_publisher/install.log'
+[2.174s] Invoked command in '/root/Synthetic_data_collection/isaac_lab_data_collection/src/servo_angle_publisher' returned '0': CONDA_PROMPT_MODIFIER=(exo_suit_jazzy_v2_3) PYTHONPATH=/root/Synthetic_data_collection/isaac_lab_data_collection/src/servo_angle_publisher/build/servo_angle_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/Synthetic_data_collection/isaac_lab_data_collection/src/servo_angle_publisher/install/servo_angle_publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/servo_angle_publisher build --build-base /root/Synthetic_data_collection/isaac_lab_data_collection/src/servo_angle_publisher/build/servo_angle_publisher/build install --record /root/Synthetic_data_collection/isaac_lab_data_collection/src/servo_angle_publisher/build/servo_angle_publisher/install.log --single-version-externally-managed install_data

@@ -1,0 +1,46 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "dynamic_biped/msg/ArmHandPose",
+      "fields": [
+        {
+          "name": "pos_xyz",
+          "type": {
+            "type_id": 59,
+            "capacity": 3,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "quat_xyzw",
+          "type": {
+            "type_id": 59,
+            "capacity": 4,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "joint_angles",
+          "type": {
+            "type_id": 59,
+            "capacity": 7,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "dynamic_biped/msg/ArmHandPose",
+      "hash_string": "RIHS01_29c754927d5089313ee243a7de122f918691afa9e18a64b9ab8c4102db3db836"
+    }
+  ]
+}

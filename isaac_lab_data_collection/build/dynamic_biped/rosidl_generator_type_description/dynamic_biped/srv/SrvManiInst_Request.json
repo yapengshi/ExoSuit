@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "dynamic_biped/srv/SrvManiInst_Request",
+      "fields": [
+        {
+          "name": "intruction",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "dynamic_biped/srv/SrvManiInst_Request",
+      "hash_string": "RIHS01_9e45f2d192314ab9e80b3b89f0a2170b09385ea9432ce3b8b18b7af21b378772"
+    }
+  ]
+}

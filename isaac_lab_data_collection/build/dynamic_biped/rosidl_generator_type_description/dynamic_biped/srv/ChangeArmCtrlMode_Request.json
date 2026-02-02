@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "dynamic_biped/srv/ChangeArmCtrlMode_Request",
+      "fields": [
+        {
+          "name": "control_mode",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "dynamic_biped/srv/ChangeArmCtrlMode_Request",
+      "hash_string": "RIHS01_d367d7aff6ff21848ea40cb0364367a85a9ed4cc47e5b879e76936bdf2540705"
+    }
+  ]
+}

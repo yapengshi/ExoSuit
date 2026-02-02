@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dynamic_biped/srv/ChangeArmCtrlMode.srv
+// generated code does not contain a copyright notice
+
+
+module dynamic_biped {
+  module srv {
+    struct ChangeArmCtrlMode_Request {
+      boolean control_mode;
+    };
+    struct ChangeArmCtrlMode_Response {
+      boolean result;
+    };
+  };
+};
