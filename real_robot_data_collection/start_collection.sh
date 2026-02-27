@@ -4,10 +4,10 @@
 
 SESSION="data_collection"
 
-#=========REAL ROBOT APPLICATION=========
-ROS_MASTER_URI="http://192.168.3.9:11311"
-ROS_IP="192.168.3.52" 
-#========================================
+#==========REAL ROBOT APPLICATION==========
+ROS_MASTER_URI="http://${ROBOT_IP}:11311"  # Set ROBOT_IP environment variable
+ROS_IP="${YOUR_IP}"                          # Set YOUR_IP environment variable
+#================================================
 
 PROJECT_DIR="$HOME/ExoSuit/real_robot_data_collection"
 

@@ -4,10 +4,10 @@
 
 SESSION="fix_bugs"
 
-#=======LOCAL TESTS INSIDE DOCKER========
-ROS_MASTER_URI="http://172.17.0.1:11311"
-ROS_IP="172.17.0.1"
-#========================================
+#==========REAL ROBOT APPLICATION==========
+ROS_MASTER_URI="http://${ROBOT_IP}:11311"  # Set ROBOT_IP environment variable
+ROS_IP="${YOUR_IP}"                          # Set YOUR_IP environment variable
+#================================================
 
 PROJECT_DIR="$HOME/ExoSuit/real_robot_data_collection"
 

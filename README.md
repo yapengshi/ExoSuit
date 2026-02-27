@@ -7,6 +7,9 @@
 # Updates
 ---
 **Current updates**
+> `v3` 30 december 2025
+- Now compatible with IsaacSim 
+
 > `v2🎉` 24 November 2025 
 - New ExoSuit structure 
 - Data collection now require only one user due too updated data collection framework
@@ -25,8 +28,11 @@
 
 
 
-# **Geting started ** #
+# **Geting started** 
 ---
+
+**This project utilizes another open-source project: [JoyCon-robotics](https://github.com/box2ai-robotics/joycon-robotics/tree/master)**
+
 **If you don't have Radxa, but have another `arm64` based device, you can use docker environment from folder `docker` to conduct expirients.**
 
 Use following command to create contaier: 
@@ -76,7 +82,7 @@ python3 -m pip install --no-cache-dir -r requirements_exo_suit_jazzy_v2_3.txt
 
 >1. Use SSH to connect to KUAVO. To enter password type 3 times space (three spaces)
 ```bash 
-ssh lab@192.168.3.9
+ssh <username>@<ipadress>
 ```
 
 >2. go to /home/lab/syp/kuavo-ros-control
@@ -142,10 +148,10 @@ echo $ROS_IP
 >2. Open `/ExoSuit/real_robot_data_collection/start_collection.sh`, change $ROS_MASTER_URI and $ROS_IP to correct one on line 8-9
 
 ```
-    #=========REAL ROBOT APPLICATION=========
-    ROS_MASTER_URI="http://192.168.3.9:11311"
-    ROS_IP="192.168.3.52" 
-    #========================================
+  #==========REAL ROBOT APPLICATION==========
+  ROS_MASTER_URI="http://${ROBOT_IP}:11311"  # Set ROBOT_IP environment variable
+  ROS_IP="${YOUR_IP}"                          # Set YOUR_IP environment variable
+  #================================================
 ```
 
 >3. Inside `/ExoSuit/real_robot_data_collection/` launch

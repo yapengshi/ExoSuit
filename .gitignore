@@ -1,11 +1,17 @@
+)
 simulation_data_collection/src/biped_s40/urdf/biped_s40.usd
 isaac_lab_data_collection/core
 simulation_data_collection/core
 
-# ROS / catkin
-build/
-devel/
-logs/
+# ROS / catkin / colcon 
+**/build/
+**/devel/
+**/install/
+**/log/
+**/logs/
+**/COLCON_IGNORE
+**/AMENT_IGNORE
+**/CATKIN_IGNORE
 .catkin_tools/
 
 # Python
@@ -15,7 +21,18 @@ __pycache__/
 # CMake
 CMakeCache.txt
 CMakeFiles/
+**/CMakeCache.txt
+**/CMakeFiles/
+
+*.so
+*.dll
+*.exe
 
 # IDE
 .vscode/
 .idea/
+
+*.log
+*.bak
+*.swp
+*~
