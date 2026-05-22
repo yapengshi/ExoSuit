@@ -1,1 +1,0 @@
-/home/Synthetic_data_collection/real_robot_data_collection/devel/.private/dynamic_biped/include/dynamic_biped/robot_hand_eff.h

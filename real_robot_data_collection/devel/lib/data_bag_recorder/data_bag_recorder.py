@@ -1,1 +1,0 @@
-/home/Synthetic_data_collection/real_robot_data_collection/devel/.private/data_bag_recorder/lib/data_bag_recorder/data_bag_recorder.py

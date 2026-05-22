@@ -1,8 +1,0 @@
-prefix=/home/Synthetic_data_collection/real_robot_data_collection/install
-
-Name: data_bag_recorder
-Description: Description of data_bag_recorder
-Version: 0.0.1
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
